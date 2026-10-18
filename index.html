@@ -1,0 +1,1035 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="description" content="一粒无名草籽，和杜鹃化身映红、春剑化身兰序一起，认识巴中双市花的花形与城市记忆。真实摄影与分支剧情，建议手机横屏阅读。"><meta name="color-scheme" content="light dark"><title>花开有时｜走近巴中双市花</title>
+<style>
+:root{--ink:#24332b;--muted:#67746b;--paper:#f3f4ef;--edge:#65786e66;--panel:#f5f7f0b8;--accent:#b64c41;--nameD:#a73e35;--nameL:#3e6854;--body-size:18px;font-family:"Microsoft YaHei","PingFang SC",sans-serif;color:var(--ink);background:#15271d}*{box-sizing:border-box}body{margin:0}button,a,input,select{font:inherit}button{cursor:pointer;color:inherit;border:0}button:disabled{cursor:default;opacity:.4}button:focus-visible,a:focus-visible,input:focus-visible{outline:2px solid currentColor;outline-offset:5px}a{color:inherit;text-underline-offset:4px}button{touch-action:manipulation}button:hover:not(:disabled){filter:brightness(1.06)}[hidden]{display:none!important}.serif{font-family:"Songti SC","STSong","SimSun",serif}#world{position:fixed;inset:0;overflow:hidden}#backdrop{width:100%;height:100%;object-fit:cover;object-position:center;filter:brightness(.88);transition:opacity .3s}#world:after{content:"";position:absolute;inset:0;pointer-events:none;background:linear-gradient(90deg,#0d211d18,transparent 70%)}.vignette{position:fixed;inset:0;pointer-events:none;background:linear-gradient(90deg,#0c201de6,transparent 85%),linear-gradient(0deg,#0e241b50,transparent 55%);transition:opacity .3s}body.playing .vignette{opacity:0}.hero{position:relative;min-height:100svh;padding:clamp(32px,7vw,110px);display:flex;align-items:center;color:#f5f4e9}.hero-inner{max-width:560px}.eyebrow{font-size:13px;letter-spacing:.2em;opacity:.8}.hero h1{font-size:clamp(46px,6vw,82px);font-weight:400;letter-spacing:.12em;margin:22px 0 12px}.hero .sub{font-size:15px;letter-spacing:.09em;line-height:1.9}.hero .poem{font-size:16px;line-height:2.2;margin:34px 0;opacity:.85}.menu{display:flex;flex-wrap:wrap;gap:12px}.menu button{border:1px solid #ffffff55;padding:12px 26px;background:#e8ede214;border-radius:3px;font-size:14px;backdrop-filter:blur(7px)}.menu button.primary{background:#f0f1e7e8;color:#314736}.hero .links{display:flex;flex-wrap:wrap;gap:22px;margin:24px 0}.text-btn{font-size:13px;background:none;padding:5px 0}.hero-footer{position:absolute;bottom:24px;left:clamp(32px,7vw,110px);font-size:11px;opacity:.65;max-width:85%}.progress-note{font-size:12px;opacity:.75;min-height:32px;line-height:1.9;margin-top:24px}.flower{width:22px;height:22px;vertical-align:middle;flex-shrink:0}.hero-flower{width:34px;height:34px;margin-left:12px;opacity:.8}
+#game{position:fixed;inset:0;color:var(--ink);--panel:#f3f5eec2;--edge:#70817566;--soft:#f4f5eea6;transition:color .3s}#game[data-theme="warm"]{--panel:#f7f1e6bc;--soft:#f8efe2ae;--edge:#8a75604d;--ink:#3e372e}#game[data-theme="dark"]{--panel:#18271ece;--soft:#1a2a20c9;--edge:#d5dfcf66;--ink:#f0f1e8;--nameD:#ffafa0;--nameL:#b8d7b5}.topbar{position:absolute;z-index:5;inset:20px 4% auto;display:flex;align-items:center;gap:15px;justify-content:space-between}.chapter-chip,.top-actions{background:var(--soft);border:1px solid var(--edge);backdrop-filter:blur(8px);border-radius:3px}.chapter-chip{display:flex;align-items:center;gap:18px;padding:10px 16px;font-size:12px}.chapter-chip b{font-weight:500}.chapter-chip span{opacity:.75}.top-actions{display:flex;padding:2px 10px;gap:16px}.top-actions button{font-size:12px;background:none;padding:8px 2px}.actors{position:absolute;inset:0;pointer-events:none;overflow:hidden}.actor{position:absolute;bottom:-2vh;right:4%;height:91%;width:auto;max-width:60vw;object-fit:contain;object-position:bottom;transition:opacity .3s,filter .3s,transform .3s;filter:drop-shadow(0 8px 16px #17251b1a)}.actor.left{right:auto;left:7%;height:88%}.actor.right{right:5%;height:88%}.actor.dim{filter:brightness(.8) saturate(.85);opacity:.85}.photo-note{position:absolute;z-index:2;right:4%;bottom:calc(24% + 22px);max-width:45%;padding:5px 9px;background:#15281db3;color:#fff;font-size:10px;line-height:1.6;border-radius:2px;text-align:right}.dialogue{position:absolute;z-index:4;left:5%;right:5%;bottom:4%;min-height:160px;height:22%;max-height:250px;background:var(--panel);border:1px solid var(--edge);border-radius:4px;backdrop-filter:blur(9px);padding:18px 30px 40px;box-shadow:0 5px 28px #15231b0c}.dialogue:before,.dialogue:after{content:"";position:absolute;width:15px;height:15px;pointer-events:none}.dialogue:before{left:9px;top:9px;border-left:1px solid var(--edge);border-top:1px solid var(--edge)}.dialogue:after{right:9px;bottom:9px;border-right:1px solid var(--edge);border-bottom:1px solid var(--edge)}.speaker{display:flex;align-items:center;gap:9px;font-size:16px;margin-bottom:10px;font-weight:500;width:max-content}.speaker:after{content:"";height:1px;width:40px;background:currentColor;opacity:.45;margin-left:4px}.speaker[data-who="映红"]{color:var(--nameD)}.speaker[data-who="兰序"]{color:var(--nameL)}#line{font-size:var(--body-size);line-height:1.85;letter-spacing:.025em;margin:0;max-width:85ch;max-height:calc(100% - 34px);overflow:auto;cursor:pointer;scrollbar-width:thin}.dialogue-tools{position:absolute;bottom:10px;right:24px;display:flex;align-items:center;gap:0}.dialogue-tools button{background:transparent;padding:3px 12px;font-size:12px;opacity:.8;border-right:1px solid var(--edge)}.dialogue-tools button:last-child{border:0}.dialogue-tools .advance{font-size:15px;padding-left:18px;min-width:45px}.hint{position:absolute;left:30px;bottom:15px;font-size:10px;opacity:.5}.choices{position:absolute;z-index:5;left:7%;top:25%;width:min(380px,38vw);display:grid;gap:11px}.choice-question{font-size:13px;background:var(--soft);border:1px solid var(--edge);padding:10px 14px;line-height:1.8;backdrop-filter:blur(8px)}.choices button{text-align:left;position:relative;min-height:48px;border:1px solid var(--edge);background:var(--panel);padding:13px 30px;font-size:14px;line-height:1.7;border-radius:3px;backdrop-filter:blur(9px);transition:transform .15s,background .15s}.choices button:before{content:"";position:absolute;left:13px;top:16px;bottom:16px;width:1px;background:currentColor;opacity:.45}.choices button:hover,.choices button:focus-visible{transform:translateX(5px);background:var(--soft)}.lore-link{position:absolute;left:5%;top:84px;background:var(--soft);border:1px solid var(--edge);backdrop-filter:blur(7px);padding:9px 13px;font-size:11px;z-index:6}.ending{position:absolute;z-index:6;top:22%;left:8%;max-width:540px;width:44%;background:var(--panel);border:1px solid var(--edge);padding:28px;backdrop-filter:blur(14px);border-radius:3px}.ending .kicker{font-size:12px;opacity:.7}.ending h2{font-size:34px;letter-spacing:.13em;font-weight:400;margin:18px 0}.ending p{font-size:15px;line-height:2}.ending button{border:1px solid var(--edge);background:transparent;padding:9px 15px;font-size:12px;margin:12px 6px 0 0}
+.overlay{position:fixed;inset:0;z-index:20;background:#0d2019b8;backdrop-filter:blur(9px);padding:5vh max(20px,8vw);display:flex;align-items:center;justify-content:center}.sheet{background:#f5f5ef;color:#293a31;width:min(1060px,100%);max-height:90svh;overflow:auto;border:1px solid #b9c3b4;border-radius:5px;padding:28px 34px;box-shadow:0 24px 90px #00180d66;scrollbar-width:thin}.sheet-head{position:sticky;top:-28px;z-index:2;display:flex;align-items:center;justify-content:space-between;gap:15px;background:#f5f5eff5;padding:12px 0 18px;border-bottom:1px solid #ccd4c7}.sheet-head h2{font-size:22px;font-weight:400;margin:0}.close{border:1px solid #84917d66;background:none;padding:6px 13px;font-size:12px}.tabs{display:flex;gap:8px;flex-wrap:wrap;margin:20px 0}.tabs button{background:none;border:1px solid #b7c2b0;padding:8px 15px;font-size:13px;border-radius:2px}.tabs button.active{background:#354e3e;color:#fff}.sheet-body{font-size:14px;line-height:1.95}.sheet-body h3{font-weight:500;font-size:18px;margin:26px 0 12px}.sheet-body p{margin:12px 0}.sheet-body .note{font-size:12px;color:#61715f}.fact-grid{display:grid;grid-template-columns:1fr 1fr;gap:25px}.fact-photo{width:100%;height:235px;object-fit:contain;background:#e6eade;cursor:zoom-in}.timeline{border-left:1px solid #a6b39d;padding-left:20px;margin:20px 0}.timeline p{margin:0 0 18px}.timeline strong{display:block;font-weight:500}.gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.gallery figure{margin:0}.gallery img{width:100%;height:160px;object-fit:cover;cursor:zoom-in;border-radius:2px}.gallery figcaption{font-size:12px;line-height:1.7;margin-top:8px}.gallery small{display:block;font-size:10px;opacity:.7}.history-line{padding:12px 0;border-bottom:1px solid #dce2d7;display:grid;grid-template-columns:68px 1fr;gap:12px}.history-line b{font-size:12px;font-weight:500;color:#536b57}.slots{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.slot{border:1px solid #b7c2b0;padding:20px}.slot button,.plain-button{border:1px solid #85967c;background:none;padding:7px 13px;font-size:12px;margin:7px 7px 0 0}.settings-row{display:flex;gap:20px;align-items:center;flex-wrap:wrap;padding:16px 0;border-bottom:1px solid #d5ddcf}.settings-row label{min-width:110px}.settings-row input[type=range]{accent-color:#526d50;width:200px}.settings-row select{padding:5px;color:#293a31;background:#eef0e8;border:1px solid #a8b79c}.ending-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}.ending-card{border:1px solid #c3cfbd;padding:17px}.ending-card h3{margin:0 0 7px;font-size:18px}.ending-card.locked{opacity:.55}.status{font-size:11px;display:inline-block;border:1px solid #b2bfa9;padding:2px 8px;margin-bottom:8px}.toast{position:fixed;z-index:40;bottom:25px;left:50%;transform:translateX(-50%);max-width:90vw;background:#223b2de8;color:#fff;padding:11px 20px;font-size:13px;border:1px solid #ffffff40;border-radius:3px}.zoom{max-width:92vw;max-height:78vh;object-fit:contain;display:block;margin:auto}.sourcelist p{font-size:12px;overflow-wrap:anywhere}.help{border-left:2px solid #a8b599;padding-left:16px}.intro-notice{padding:12px 16px;border:1px solid #c9d1c1;background:#edf0e7}.small{font-size:12px}.no-motion *{animation:none!important;transition:none!important}body.hide-ui .topbar,body.hide-ui .dialogue,body.hide-ui .photo-note,body.hide-ui .lore-link{visibility:hidden}.unhide{position:fixed;right:20px;bottom:20px;z-index:10;background:#1f3328b8;color:#fff;border:1px solid #ffffff50;padding:9px 16px;display:none}.hide-ui .unhide{display:block}
+@media(max-width:800px){.hero{padding:40px 28px}.hero-footer{left:28px}.hero h1{font-size:54px}.hero .poem{font-size:14px}.topbar{inset:12px 3% auto;gap:8px}.chapter-chip{padding:8px;font-size:10px;gap:8px}.chapter-chip b{display:none}.top-actions{gap:10px;padding:1px 8px}.top-actions button{font-size:10px}.actor{height:73%;bottom:21%;right:-13%;max-width:85vw}.actor.left{left:-15%;height:69%;bottom:24%}.actor.right{right:-12%;height:69%;bottom:24%}.dialogue{left:3%;right:3%;bottom:3%;height:27%;min-height:190px;padding:20px 20px 45px}.speaker{font-size:14px;margin-bottom:8px}.flower{width:19px;height:19px}#line{font-size:clamp(15px,3.8vw,var(--body-size));line-height:1.85}.hint{display:none}.dialogue-tools{right:10px;bottom:12px}.dialogue-tools button{font-size:11px;padding:3px 9px}.photo-note{right:3%;bottom:calc(30% + 9px);max-width:70%;font-size:9px}.choices{left:5%;top:26%;width:65%;gap:8px}.choices button{font-size:13px;padding:10px 24px;min-height:44px}.choice-question{font-size:11px}.lore-link{left:3%;top:60px;font-size:10px}.ending{left:5%;top:17%;width:90%;max-width:none;padding:22px}.ending h2{font-size:28px}.ending p{font-size:14px}.sheet{padding:18px;max-height:93svh}.sheet-head{top:-18px}.sheet-head h2{font-size:19px}.fact-grid,.slots{grid-template-columns:1fr}.gallery{grid-template-columns:1fr 1fr;gap:13px}.gallery img{height:135px}.overlay{padding:3vh 12px}.ending-grid{grid-template-columns:1fr}.fact-photo{height:200px}.sheet-body{font-size:13px}.hero-inner{max-width:95%}}@media(max-height:570px) and (min-width:650px){.dialogue{min-height:135px;height:27%;padding-top:12px}.actor{height:100%;bottom:0}.choices{top:19%;width:36%;gap:6px}.choices button{min-height:35px;padding:8px 25px;font-size:12px}.choice-question{font-size:10px;padding:6px 12px}.topbar{top:10px}.photo-note{bottom:33%}.hero{padding:30px 6%}.hero h1{font-size:48px;margin:12px 0}.hero .poem{margin:16px 0;font-size:13px}.hero-footer{display:none}}@media(prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+</style><style>/* 横屏舞台固定16:9，人物、文本与照片在同一坐标内排版。 */
+html,body{width:100%;height:100%;overflow:hidden;background:#15201b}
+#stage{position:fixed;left:50%;top:50%;transform:translate(-50%,-50%);width:min(100vw,calc(100svh * 16 / 9));height:min(56.25vw,100svh);overflow:hidden;container-type:size;background:#1b2b22;box-shadow:0 0 80px #07130c77}
+#world,#game,.vignette{position:absolute;inset:0}
+.hero{min-height:0;height:100%;padding:6% 7%}.hero h1{font-size:clamp(32px,5.3cqw,76px);margin:2.1cqw 0 1cqw}.hero .poem{font-size:clamp(12px,1.1cqw,16px);margin:2.2cqw 0;line-height:2}.hero .sub{font-size:clamp(11px,1.1cqw,15px)}.hero .eyebrow{font-size:clamp(9px,.95cqw,13px)}.hero .links{gap:1.6cqw;margin:1.6cqw 0}.hero .menu button{padding:1cqw 2cqw;font-size:clamp(10px,1cqw,14px)}.hero .text-btn{font-size:clamp(10px,.95cqw,13px)}.hero .progress-note{font-size:clamp(9px,.85cqw,12px);margin-top:1.4cqw}.hero-footer{left:7%;bottom:2%;font-size:clamp(7px,.72cqw,10px)}
+#game .topbar{inset:2.5% 3.5% auto;gap:10px}#game .chapter-chip{padding:.6cqw 1cqw;font-size:clamp(9px,.85cqw,12px);gap:1.2cqw}#game .chapter-chip b{display:block}#game .top-actions{gap:1.1cqw;padding:0 .8cqw}#game .top-actions button{font-size:clamp(9px,.8cqw,12px);padding:.55cqw 0}
+#game .actors{inset:0}#game .actor{position:absolute;bottom:20%;right:10%;height:70%;width:auto;aspect-ratio:2/3;max-width:none;background-size:200% 200%;background-repeat:no-repeat;filter:none;opacity:1;transition:filter .25s;pointer-events:none}
+#game .actor.left{left:7%;right:auto;bottom:20%;height:70%}#game .actor.right{right:8%;left:auto;bottom:20%;height:70%}#game .actor.dim{opacity:1;filter:brightness(.88) saturate(.92)}
+#game .dialogue{left:5%;right:5%;bottom:4.8%;height:17%;min-height:0;max-height:none;padding:1cqw 2.1cqw 2.3cqw;background:var(--panel);backdrop-filter:blur(4px)}
+#game{--panel:#f2f5ed9c;--soft:#edf1e79e;--edge:#697e6752}#game[data-theme="warm"]{--panel:#f7f1e59e;--soft:#f6ecdc9e;--edge:#8a75605a}#game[data-theme="dark"]{--panel:#15251bab;--soft:#15271db0;--edge:#d5dfcf55}
+#game .speaker{font-size:clamp(11px,1.1cqw,16px);gap:.6cqw;margin-bottom:.4cqw}#game .speaker:after{width:2.6cqw}#game .flower{width:1.5cqw;height:1.5cqw;min-width:13px;min-height:13px}#game #line{font-size:clamp(12px,1.24cqw,var(--body-size));line-height:1.65;max-height:calc(100% - 1.5cqw);max-width:95ch;letter-spacing:.015em}
+#game .dialogue-tools{right:1.2cqw;bottom:.45cqw}#game .dialogue-tools button{font-size:clamp(9px,.8cqw,12px);padding:.15cqw .8cqw}#game .dialogue-tools .advance{font-size:clamp(11px,1cqw,15px);min-width:30px}#game .hint{display:none}
+#game .choices{top:24%;left:8%;width:34%;gap:.65cqw}#game .choices button{min-height:0;font-size:clamp(11px,1cqw,14px);line-height:1.6;padding:.8cqw 2.1cqw;background:var(--panel);backdrop-filter:blur(5px)}#game .choices button:before{left:1cqw;top:1cqw;bottom:1cqw}
+#game .photo-note{right:.7%;bottom:.6%;top:auto;max-width:85%;font-size:clamp(7px,.61cqw,9px);line-height:1.5;padding:2px 5px;background:#14221c70;border-radius:1px;text-align:right;white-space:normal;pointer-events:none}
+#game .lore-link{top:10.5%;left:3.5%;font-size:clamp(8px,.75cqw,11px);padding:.55cqw .8cqw}
+#game .ending{top:20%;left:7%;width:46%;max-width:none;padding:2cqw}#game .ending h2{font-size:clamp(20px,2.4cqw,34px);margin:1cqw 0}#game .ending p{font-size:clamp(11px,1cqw,15px);line-height:1.8;margin:.8cqw 0}#game .ending .kicker{font-size:clamp(9px,.85cqw,12px)}#game .ending button{font-size:clamp(9px,.85cqw,12px);padding:.55cqw 1cqw;margin:.6cqw .4cqw 0 0}
+#rotate-note{display:none;position:fixed;left:12%;right:12%;bottom:9%;color:#dce5da;font-size:13px;text-align:center;line-height:1.9;margin:0}.unhide{position:absolute;right:2%;bottom:4%;font-size:12px}body.hide-ui #choices{visibility:hidden}
+@media(orientation:portrait){body.playing #rotate-note{display:block}.hero .progress-note,.hero-footer{display:none}.hero h1{margin:8px 0}.hero .poem{margin:8px 0;font-size:10px;line-height:1.6}.hero .links{gap:12px;margin:7px 0}.hero .menu button{padding:5px 10px;font-size:10px}.hero .eyebrow{font-size:8px}.hero .sub{font-size:9px}.hero .text-btn{font-size:9px}.hero-inner{max-width:90%}}
+
+/* 认花时留出整幅实物照片，线和标签随同一照片坐标缩放。 */
+#game .specimen{position:absolute;z-index:3;left:4%;top:21%;width:48%;height:53%;display:flex;flex-direction:column;gap:.65cqw;padding:1cqw 1.1cqw .8cqw;background:#f4f5ecdc;color:#293e32;border:1px solid #b6c3b4ab;border-radius:3px;backdrop-filter:blur(5px)}
+.specimen header{display:flex;align-items:center;justify-content:space-between;gap:1cqw}.specimen strong{font-size:clamp(11px,1.04cqw,15px);font-weight:500;letter-spacing:.08em}.specimen small{display:block;font-size:clamp(8px,.7cqw,10px);margin-top:.2cqw;opacity:.7}.specimen header button{background:transparent;border:1px solid #80928066;padding:.35cqw .65cqw;font-size:clamp(8px,.72cqw,11px)}
+.specimen-figure{position:relative;flex:1;min-height:0;background:#15251f08;overflow:hidden}.specimen-canvas{position:absolute;height:100%;width:auto;aspect-ratio:var(--ratio);max-width:100%;left:50%;top:0;transform:translateX(-50%)}#specimen-photo{display:block;width:100%;height:100%;object-fit:contain}
+#specimen-leads,#specimen-parts{position:absolute;inset:0;width:100%;height:100%}#specimen-leads{pointer-events:none;overflow:visible;filter:drop-shadow(0 1px 2px #071c0cd9)}#specimen-leads polyline{fill:none;stroke:#fff7d6;stroke-width:.35;vector-effect:non-scaling-stroke;stroke-width:1.1px}#specimen-leads circle{fill:#fff5d3;stroke:#304839;stroke-width:.25}#specimen-leads .selected polyline{stroke:#ffd18e;stroke-width:1.8px}#specimen-leads .selected circle{fill:#ffc979}
+#specimen-parts{pointer-events:none}#specimen-parts button{position:absolute;transform:translate(var(--side),-50%);pointer-events:auto;white-space:nowrap;font-size:clamp(8px,.78cqw,11px);line-height:1.6;padding:.15cqw .45cqw;border:1px solid #fff6c9b3;border-radius:2px;background:#153629dc;color:#fff8e4;box-shadow:0 1px 5px #00180d55}#specimen-parts button[aria-pressed=true]{background:#f3dec0;color:#263f31;border-color:#fff5de}#specimen-detail{font-size:clamp(9px,.8cqw,12px);line-height:1.7;margin:0;min-height:2.7em;max-height:4em;overflow:auto}
+#game .tip-trigger{position:absolute;z-index:6;left:3.5%;top:10.5%;display:flex;align-items:center;gap:.55cqw;padding:.1cqw .8cqw .1cqw .2cqw;max-width:35%;background:var(--soft);border:1px solid var(--edge);border-radius:3px;color:var(--ink);backdrop-filter:blur(4px);text-align:left}#tip-q{width:3.3cqw;height:3.3cqw;min-width:27px;min-height:27px;object-fit:contain;border-radius:50%;mix-blend-mode:multiply}#tip-trigger small{display:block;font-size:clamp(7px,.62cqw,9px);opacity:.65;letter-spacing:.1em}#tip-trigger b{display:block;font-size:clamp(9px,.84cqw,12px);font-weight:500;margin-top:.15cqw}#tip-trigger i{font-size:clamp(10px,1.1cqw,16px);font-style:normal;margin-left:1cqw;opacity:.55}
+.tip-reading{display:grid;grid-template-columns:180px 1fr;gap:30px;align-items:center;padding:30px 12px;max-width:850px;margin:auto}.tip-reading>img{width:100%;mix-blend-mode:multiply}.tip-reading h3{margin:10px 0;font-size:23px}.tip-reading p{font-size:16px;line-height:2.1}.tip-byline{font-size:12px;letter-spacing:.12em;color:#667e67}.tip-reading .note{font-size:12px}body.hide-ui #specimen,body.hide-ui #tip-trigger{visibility:hidden}
+#specimen-parts button.part-hotspot{width:1.6cqw;height:1.6cqw;min-width:12px;min-height:12px;transform:translate(-50%,-50%);padding:0;border:0;background:transparent;box-shadow:none;border-radius:50%}#specimen-parts button.part-hotspot:hover,#specimen-parts button.part-hotspot:focus-visible{background:#ffe7a940;outline:1px solid #fff3cd}
+.specimen-canvas.orchid-closeup{overflow:hidden}.specimen-canvas.orchid-closeup #specimen-photo{position:absolute;width:174.19355%;height:174.19355%;max-width:none;left:-32.25806%;top:-41.93548%;object-fit:fill}
+@media(max-width:800px){.tip-reading{grid-template-columns:90px 1fr;gap:15px;padding:14px 0}.tip-reading h3{font-size:18px}.tip-reading p{font-size:13px}.specimen small{display:none}#game .specimen{gap:.35cqw}#specimen-detail{line-height:1.5}}
+
+/* 双人同屏：中间留给操作，两侧留给完整立绘。单人场景维持左图右人。 */
+#game[data-cast="both"] .actor.left{left:4%;right:auto}
+#game[data-cast="both"] .actor.right{right:4%;left:auto}
+#game[data-cast="both"] .choices{left:34%;width:32%;top:28%}
+#game[data-cast="both"] .tip-trigger{left:50%;transform:translateX(-50%);max-width:32%}
+#game[data-cast="both"] .lore-link{left:50%;transform:translateX(-50%);max-width:32%}
+
+/* 竖图按比例保留，低分辨率特写留在资料卡；分支不改变界面坐标。 */
+#world{background:#24372c}#backdrop{transform:none}#backdrop[data-treatment="soft"]{filter:blur(2px) brightness(.82) saturate(.9);transform:scale(1.012)}
+#game #line{font-size:clamp(12px,calc(1.24cqw * var(--text-scale,1)),var(--body-size))}
+#specimen-leads .part-marker circle{fill:#193a2bd9;stroke:#ffdf9e;stroke-width:.35}#specimen-leads .part-marker text{fill:#fff0c9;font:2.8px "Microsoft YaHei",sans-serif;text-anchor:middle;dominant-baseline:central;paint-order:stroke;stroke:none}
+
+/* 第一次遇见Q版旁注时的轻提醒，不占对白，也不挡选项。 */
+#game .tip-guide{position:absolute;z-index:7;left:3.5%;top:18.3%;width:32%;padding:.65cqw .9cqw;background:#f3f5ebed;border:1px solid #82987a8c;border-radius:3px;color:#304a36;box-shadow:0 3px 14px #15301e12}
+#game[data-cast="both"] .tip-guide{left:50%;transform:translateX(-50%)}
+.tip-guide:before{content:"";position:absolute;left:50%;top:-.55cqw;width:1cqw;height:.55cqw;border-left:1px solid #a6b69c}
+.tip-guide p{margin:0;font-size:clamp(10px,.85cqw,12px);line-height:1.8}.tip-guide button{display:block;margin:.35cqw 0 0 auto;padding:.12cqw .5cqw;border-bottom:1px solid #78906c;background:none;font-size:clamp(9px,.75cqw,11px);color:#46613e}
+body.hide-ui #tip-guide{visibility:hidden}
+.pose-frame{display:block;width:100%;height:100%;overflow:hidden;pointer-events:none}
+</style></head><body>
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none"><symbol id="icon-azalea" viewBox="0 0 40 40"><path fill="currentColor" d="M20 22C-2 23 2 8 12 12C5-2 24-3 24 10C37-1 44 17 30 20C47 26 30 42 23 29C20 46 2 33 14 25Z"/><path d="m20 22-3-10m3 10 9-7m-9 7 8 8m-8-8-9 4" stroke="#fff9" fill="none" stroke-width=".8"/><circle cx="20" cy="22" r="2" fill="#e7cb80"/></symbol><symbol id="icon-orchid" viewBox="0 0 40 40"><path d="M20 21C12 9 18 0 21 2C25 9 24 14 20 21M18 21C8 16 1 20 1 27C8 28 15 25 18 21M23 21C32 14 39 20 39 26C33 28 27 26 23 21" fill="currentColor"/><path d="M20 22C10 9 12 10 17 14L20 19 23 13C28 8 29 14 22 22" fill="#c0c99a"/><path d="M19 21Q11 29 20 35Q30 30 23 21Z" fill="#f4ecdd"/><path d="m19 26 3 4m-4-1 3 3" stroke="#a95656" stroke-width="1.5"/></symbol></svg>
+<div id="stage"><div id="world"><img id="backdrop" alt="巴中真实摄影背景"></div><div class="vignette"></div>
+<main id="home" class="hero"><div class="hero-inner"><div class="eyebrow">走近巴中双市花</div><h1 class="serif">花开有时</h1><div class="sub">一粒无名草籽的巴中花信</div><p class="poem">如果没有人认得我，<br>我为什么还要开花？</p><div class="menu"><button id="start" class="primary">开始故事</button><button id="continue">继续阅读</button><button id="hidden-start" hidden>循着两段记忆</button></div><div class="links"><button class="text-btn" data-open="archive">市花档案</button><button class="text-btn" data-open="gallery">实景照片</button><button class="text-btn" data-open="endings">花信收藏</button><button class="text-btn" data-open="about">关于作品</button></div><p id="meta-note" class="progress-note"></p></div><div class="hero-footer">原创互动童话 · 实景摄影 × 市花化身<br>背景：巴中光雾山杜鹃景观／四川在线，巴中文旅集团供图</div></main>
+<section id="game" data-theme="cool" hidden aria-label="视觉小说"><header class="topbar"><div class="chapter-chip"><b class="serif">花开有时</b><span id="chapter"></span></div><nav class="top-actions"><button data-open="archive">档案</button><button data-open="saves">存读档</button><button id="fullscreen">全屏</button><button id="home-button">返回</button></nav></header><button id="context-lore" class="lore-link" hidden>翻阅这页资料 ↗</button><div class="actors"><div id="actor1" class="actor" role="img" aria-label="" hidden></div><div id="actor2" class="actor" role="img" aria-label="" hidden></div></div><aside id="specimen" class="specimen" hidden aria-label="真花部位导览"><header><div><strong id="specimen-title"></strong><small>点击引导线旁的标签，认识真实花朵</small></div><button id="specimen-zoom" aria-label="放大花朵照片">放大 ↗</button></header><div class="specimen-figure"><div id="specimen-canvas" class="specimen-canvas"><img id="specimen-photo" alt=""><svg id="specimen-leads" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true"></svg><div id="specimen-parts"></div></div></div><p id="specimen-detail" aria-live="polite"></p></aside><button id="tip-trigger" class="tip-trigger" hidden><img id="tip-q" alt=""><span><small>小贴士 · 点击查阅</small><b id="tip-label"></b></span><i>＋</i></button><aside id="tip-guide" class="tip-guide" hidden aria-label="小贴士使用提醒"><p>点Q版头像，可查看花形、历史等补充说明，不影响剧情选择。</p><button id="tip-guide-dismiss">知道了</button></aside><div id="choices" class="choices" hidden></div><div id="photo-note" class="photo-note"></div><div id="dialogue" class="dialogue"><div id="speaker" class="speaker"></div><p id="line" tabindex="0" aria-live="polite"></p><span class="hint">点击文字继续 · 空格 / →</span><div class="dialogue-tools"><button data-open="history">回看</button><button id="auto">自动</button><button id="skip">已读快进</button><button data-open="settings">设置</button><button id="hide-ui">隐去</button><button id="advance" class="advance" aria-label="继续下一句">▸</button></div></div><article id="ending" class="ending" hidden></article></section>
+<button id="unhide" class="unhide">显示界面</button></div><p id="rotate-note">横屏阅读，人物与照片会更清楚。<br>请将手机横过来，或使用右上角的“全屏”。</p><div id="overlay" class="overlay" hidden><section class="sheet" role="dialog" aria-modal="true" aria-labelledby="modal-title"><header class="sheet-head"><h2 id="modal-title" class="serif"></h2><button id="close" class="close">关闭 ×</button></header><div id="modal-body" class="sheet-body"></div></section></div><div id="toast" class="toast" role="status" hidden></div>
+<script>const ASSETS={"mountain": "assets/mountain.jpg", "ridge": "assets/ridge.jpg", "azalea": "assets/azalea.jpg", "orchid": "assets/orchid.jpg", "orchid2": "assets/orchid2.jpg", "hospital": "assets/hospital.jpg", "memorial": "assets/memorial.jpg", "seed": "assets/seed.png", "azalea2": "assets/azalea2.jpg", "orchid3": "assets/orchid3.jpg", "seed2": "assets/seed2.jpg", "seed3": "assets/seed3.jpg", "fort": "assets/fort.jpg", "monument": "assets/monument.jpg", "mountain2": "assets/mountain2.jpg", "mountain3": "assets/mountain3.jpg", "mountain4": "assets/mountain4.jpg", "mountain5": "assets/mountain5.jpg", "mountain6": "assets/mountain6.jpg", "flowerVisitors": "assets/flowerVisitors.jpg", "flowerWalk": "assets/flowerWalk.jpg", "flowerCamera": "assets/flowerCamera.jpg", "flowerRecord": "assets/flowerRecord.jpg", "orchidCulture": "assets/orchidCulture.jpg", "cityAzalea": "assets/cityAzalea.jpg", "cityOrchid": "assets/cityOrchid.jpg", "ying": "assets/ying.png", "lan": "assets/lan.png", "yingSheet": "assets/yingSheet.png", "lanSheet": "assets/lanSheet.png", "yingQ": "assets/yingQ.png", "lanQ": "assets/lanQ.png", "yingPoseV2": "assets/yingPoseV2.png", "lanPoseV2": "assets/lanPoseV2.png"};const PHOTOS=[{"id": "mountain", "file": "mountain.jpg", "title": "光雾山杜鹃景观", "credit": "四川在线／巴中文旅集团", "source": "https://bazhong.scol.com.cn/jtlvx/202404/82513032.html", "url": "https://imgcdn.scol.com.cn/media/2024/04/22/213003512122.jpg", "size": [1000, 667], "status": "ok", "rights": "原版权归属保留；未取得开放许可，仅作课程学习展示，不作商业发布"}, {"id": "ridge", "file": "ridge.jpg", "title": "光雾山杜鹃山脊", "credit": "四川在线", "source": "https://bazhong.scol.com.cn/jtlvx/202204/58512049.html", "url": "https://imgcdn.scol.com.cn/NEWS_08E04FB3E1E557D7C4E688C652E6230B.JPG", "size": [1590, 1076], "status": "ok", "rights": "原版权归属保留；未取得开放许可，仅作课程学习展示，不作商业发布"}, {"id": "azalea", "file": "azalea.jpg", "title": "映山红摄影（香港）", "credit": "嘉道理农场暨植物园", "source": "https://www.kfbg.org/en/KFBG-blog/post/Meet-the-Chinese-New-Year-Beauty-Queens", "url": "https://www.kfbg.org/upload/Rhododendron-simsii--0026.jpg", "size": [577, 433], "status": "ok", "rights": "原版权归属保留；未取得开放许可，仅作课程学习展示，不作商业发布"}, {"id": "orchid", "file": "orchid.jpg", "title": "春剑栽培实物", "credit": "Hengduan Biotechnology", "source": "https://www.hengduanbiotech.net/collections/cymbidium-tortisepalum", "url": "https://www.hengduanbiotech.net/cdn/shop/files/tortisepalumvar.longibractiatum.jpg?v=1735006567&width=533", "size": [528, 960], "status": "ok", "rights": "原版权归属保留；未取得开放许可，仅作课程学习展示，不作商业发布"}, {"id": "orchid2", "file": "orchid2.jpg", "title": "庭院中的春剑（非巴中）", "credit": "怠け者の散歩道２／2010-01-25", "source": "https://elemiddleman.seesaa.net/article/201001article_30.html", "url": "https://elemiddleman.up.seesaa.net/00269116N000000007/126441058032716125945.JPG", "size": [1306, 980], "status": "ok", "rights": "原版权归属保留；未取得开放许可，仅作课程学习展示，不作商业发布"}, {"id": "hospital", "file": "hospital.jpg", "title": "王坪红四方面军总医院旧址群（当代照片）", "credit": "通江县政府／县摄协、县新闻中心", "source": "https://tjxzf.gov.cn/zjtj/tjtz/7744011.html", "url": "https://tjxzf.gov.cn/oldfiles/tjx/5976f9d8ceab06836e13e593/201711/201711240916172457_Kr4Ov47e_800x472.jpg", "size": [800, 472], "status": "ok", "rights": "原版权归属保留；未取得开放许可，仅作课程学习展示，不作商业发布"}, {"id": "memorial", "file": "memorial.jpg", "title": "王坪无名烈士纪念园（当代照片）", "credit": "通江县政府／县摄协、县新闻中心", "source": "https://tjxzf.gov.cn/zjtj/tjtz/7744011.html", "url": "https://tjxzf.gov.cn/oldfiles/tjx/5976f9d8ceab06836e13e593/201804/201804082250371352_trlEIGHu.jpg", "size": [1080, 600], "status": "ok", "rights": "原版权归属保留；未取得开放许可，仅作课程学习展示，不作商业发布"}, {"id": "seed", "file": "seed.png", "title": "草籽萌发摄影（生长示意，非巴中实拍）", "credit": "My Lawn", "source": "https://my-lawn.co.uk/locations/stockport-lawn-care-services/", "url": "https://my-lawn.co.uk/app/uploads/2023/02/seed-germinating.png", "status": "ok", "rights": "原版权归属保留，未取得开放许可；课程学习展示"}, {"id": "azalea2", "file": "azalea2.jpg", "title": "映山红花丛（香港）", "credit": "嘉道理农场暨植物园", "source": "https://www.kfbg.org/en/KFBG-blog/post/Meet-the-Chinese-New-Year-Beauty-Queens", "url": "https://www.kfbg.org/upload/Rhododendron-simsii-----7.jpg", "size": [577, 433], "status": "ok", "rights": "保留原作者版权；未取得开放许可，课程学习展示使用"}, {"id": "orchid3", "file": "orchid3.jpg", "title": "春剑淡绿花特写（异地栽培）", "credit": "La Foresta Orchids", "source": "https://www.laforestaorchids.com/products/cymbidium-goeringii", "url": "https://www.laforestaorchids.com/cdn/shop/files/cymbidium-goeringii-var-longibracteatum-cymbidium-la-foresta-orchids-374988.jpg?v=1713891163&width=1206", "size": [1080, 1080], "status": "ok", "rights": "保留原作者版权；未取得开放许可，课程学习展示使用"}, {"id": "seed2", "file": "seed2.jpg", "title": "幼草与土壤（生长示意，非巴中）", "credit": "Topsoil & More", "source": "https://www.topsoilandmore.co.uk/products/grass-seeding-rootzone-soil-50-50-mix", "url": "https://www.topsoilandmore.co.uk/cdn/shop/files/grassseedshopify.jpg?v=1698751561&width=1946", "size": [1946, 1946], "status": "ok", "rights": "保留原作者版权；未取得开放许可，课程学习展示使用"}, {"id": "seed3", "file": "seed3.jpg", "title": "新生草叶（生长示意，非巴中）", "credit": "Amenity Choice", "source": "https://www.amenity.co.uk/collections/equestrian-paddock-seed", "url": "https://www.amenity.co.uk/cdn/shop/collections/Lawn_Grass_Seed_min_res_90158af9-eb7d-47fb-a13c-4494061358f8.webp?v=1752582333", "size": [2592, 1728], "status": "ok", "rights": "保留原作者版权；未取得开放许可，课程学习展示使用"}, {"id": "fort", "file": "fort.jpg", "title": "王坪大城寨（当代照片）", "credit": "通江县政府／县摄协、县新闻中心", "source": "https://tjxzf.gov.cn/zjtj/tjtz/7744011.html", "url": "https://tjxzf.gov.cn/oldfiles/tjx/5976f9d8ceab06836e13e593/201711/201711240916362459_1fVnvO3Z_800x531.jpg", "size": [800, 531], "status": "ok", "rights": "保留原作者版权；未取得开放许可，课程学习展示使用"}, {"id": "monument", "file": "monument.jpg", "title": "红四方面军英勇烈士之墓纪念碑", "credit": "通江县政府／县摄协、县新闻中心", "source": "https://tjxzf.gov.cn/zjtj/tjtz/7744011.html", "url": "https://tjxzf.gov.cn/oldfiles/tjx/5976f9d8ceab06836e13e593/201804/201804191608321720_aTjERJTs_426x526.jpg", "size": [426, 526], "status": "ok", "rights": "保留原作者版权；未取得开放许可，课程学习展示使用"}, {"id": "mountain2", "file": "mountain2.jpg", "title": "光雾山杜鹃景观 · 2", "credit": "四川在线／巴中文旅集团", "source": "https://bazhong.scol.com.cn/jtlvx/202404/82513032.html", "url": "https://imgcdn.scol.com.cn/media/2024/04/22/213003496547.jpg", "size": [1000, 667], "status": "ok", "rights": "保留原作者版权；未取得开放许可，课程学习展示使用"}, {"id": "mountain3", "file": "mountain3.jpg", "title": "光雾山杜鹃景观 · 3", "credit": "四川在线／巴中文旅集团", "source": "https://bazhong.scol.com.cn/jtlvx/202404/82513032.html", "url": "https://imgcdn.scol.com.cn/media/2024/04/22/213003509657.jpg", "size": [1000, 667], "status": "ok", "rights": "保留原作者版权；未取得开放许可，课程学习展示使用"}, {"id": "mountain4", "file": "mountain4.jpg", "title": "光雾山杜鹃景观 · 4", "credit": "四川在线／巴中文旅集团", "source": "https://bazhong.scol.com.cn/jtlvx/202404/82513032.html", "url": "https://imgcdn.scol.com.cn/media/2024/04/22/213003574259.jpg", "size": [1000, 667], "status": "ok", "rights": "保留原作者版权；未取得开放许可，课程学习展示使用"}, {"id": "mountain5", "file": "mountain5.jpg", "title": "光雾山杜鹃景观 · 5", "credit": "四川在线／巴中文旅集团", "source": "https://bazhong.scol.com.cn/jtlvx/202404/82513032.html", "url": "https://imgcdn.scol.com.cn/media/2024/04/22/213003581960.jpg", "size": [1000, 667], "status": "ok", "rights": "保留原作者版权；未取得开放许可，课程学习展示使用"}, {"id": "mountain6", "file": "mountain6.jpg", "title": "光雾山杜鹃景观 · 6", "credit": "四川在线／巴中文旅集团", "source": "https://bazhong.scol.com.cn/jtlvx/202404/82513032.html", "url": "https://imgcdn.scol.com.cn/media/2024/04/22/213003511202.jpg", "size": [1000, 667], "status": "ok", "rights": "保留原作者版权；未取得开放许可，课程学习展示使用"}, {"id": "flowerVisitors", "file": "flowerVisitors.jpg", "title": "光雾山香炉山游客赏杜鹃", "credit": "付海旭／四川在线，2025-05-19", "source": "https://sichuan.scol.com.cn/ggxw/202505/82968720.html", "url": "https://imgcdn.scol.com.cn/media/2025/05/19/161003161354.jpg", "size": [1200, 824], "status": "ok", "rights": "保留摄影版权，课程学习展示；未确认开放复用许可"}, {"id": "flowerWalk", "file": "flowerWalk.jpg", "title": "光雾山杜鹃与赏花栈道", "credit": "付海旭／四川在线，2025-05-19", "source": "https://sichuan.scol.com.cn/ggxw/202505/82968720.html", "url": "https://imgcdn.scol.com.cn/media/2025/05/19/161003617943.jpg", "size": [888, 1200], "status": "ok", "rights": "保留摄影版权，课程学习展示；未确认开放复用许可"}, {"id": "flowerCamera", "file": "flowerCamera.jpg", "title": "游客在光雾山拍摄杜鹃", "credit": "付海旭／四川在线，2025-05-19", "source": "https://sichuan.scol.com.cn/ggxw/202505/82968720.html", "url": "https://imgcdn.scol.com.cn/media/2025/05/19/161006130589.jpg", "size": [1200, 838], "status": "ok", "rights": "保留摄影版权，课程学习展示；未确认开放复用许可"}, {"id": "flowerRecord", "file": "flowerRecord.jpg", "title": "光雾山游客记录高山杜鹃", "credit": "付海旭／四川在线，2025-05-19", "source": "https://sichuan.scol.com.cn/ggxw/202505/82968720.html", "url": "https://imgcdn.scol.com.cn/media/2025/05/19/161007135438.jpg", "size": [1200, 826], "status": "ok", "rights": "保留摄影版权，课程学习展示；未确认开放复用许可"}, {"id": "orchidCulture", "file": "orchidCulture.jpg", "title": "傅华龙与春剑玉海棠（成都兰展，品种来自巴中）", "credit": "红星新闻，2024-02-23", "source": "https://static.cdsb.com/micropub/Articles/202402/07f9bc25a8091db9f127f5b59b219408.html", "url": "https://images.cdsb.com/Uploads/micropub_posts/image/20240223/1708667086641398.jpg", "size": [1702, 1276], "status": "ok", "rights": "保留摄影版权，课程学习展示；未确认开放复用许可"}, {"id": "cityAzalea", "file": "cityAzalea.jpg", "title": "巴中市花发布报道中的杜鹃配图", "credit": "中共巴中市委宣传部供图／四川在线，2021-09-23", "source": "https://sichuan.scol.com.cn/ggxw/202109/58289802.html", "url": "https://imgcdn.scol.com.cn/NEWS_B2209DDEB312DDB33750B262CF975DF3.JPG", "size": [1024, 668], "status": "ok", "rights": "保留摄影版权，课程学习展示；未确认开放复用许可"}, {"id": "cityOrchid", "file": "cityOrchid.jpg", "title": "巴中市花发布报道中的兰花配图（品种未逐图详注）", "credit": "中共巴中市委宣传部供图／四川在线，2021-09-23", "source": "https://sichuan.scol.com.cn/ggxw/202109/58289802.html", "url": "https://imgcdn.scol.com.cn/NEWS_5D09828163C56D51B6E70A7F9638DDEA.JPG", "size": [750, 375], "status": "ok", "rights": "保留摄影版权，课程学习展示；未确认开放复用许可"}];</script><script>/* 原创童话对白。真实历史与植物资料另见资料册。 */
+const L=(who,text)=>({who,text});
+const O=(text,effects,...lines)=>({text,effects,lines:lines.map(x=>typeof x==='string'?L('我',x):x)});
+const N=(id,title,bg,actor,lines,question,choices,lore)=>({id,title,bg,actor,lines,question,choices,lore});
+const STORY={
+C01:N('C01','雨停以前','seed','ying',[
+L('旁白','先是一道缝。然后，光进来了。'),L('我','我把第一片叶子探出去。风一碰，它便抖了一下。'),L('旁白','我落在巴中的一条小径边，刚从一粒无名草籽长成幼芽。还没有名字，也不知道将来会开什么花。'),L('我','一滴雨水压在叶尖。旁边那株更小的芽，却还够不到湿润的土。')
+],'先试着做一件什么事？',[
+O('用力撑起叶片',{D:2,last:'D',stood:true},L('旁白','叶尖颤了两次，终于托起水珠。水滴落下时，我也向后晃了晃。'),L('映红','力气不大，倒挺肯试。下次记得先找稳支点。')),
+O('把水珠引向身旁的小芽',{L:2,last:'L',watered:true},L('旁白','我低下叶尖。水沿着细细的叶脉，落到小芽脚边。'),L('兰序','它的叶子舒展开了。你自己也别一直低着头。')),
+O('先看看水珠怎样流动',{D:1,L:1,observed:true},L('旁白','水珠顺着叶脉停在最低处。我转过一点叶尖，它便滑进土里。'),L('我','原来不一定要硬撑。我记住了这条小小的水路。'))
+]),
+C02:N('C02','名字从身边经过','lane','none',[
+L('旁白','脚步声从小径那头来，又向远处去了。没有人蹲下来。'),L('我','别的花身边立着牌子。我翻来覆去看自己的叶子，什么也没写。'),L('旁白','墙边坐着一个歇脚的人。另一些没有牌子的草，正在石缝里伸出新叶。')
+],'我的目光停在哪里？',[
+O('朝有光的地方再伸高一点',{D:2,last:'D',noticed:true},L('旁白','我挺高叶尖。那人的影子经过，却没有停。'),L('我','原来再努力一点，也不保证马上被看见。可我真的很想被看见。')),
+O('留意那个歇脚的人',{L:2,last:'L',quiet:true},L('旁白','那人把背篓放下，肩膀慢慢松开。我也不再急着晃动叶子。'),L('我','我不知道他为什么累。也许先安静一会儿，并不是什么坏事。')),
+O('看看那些没有牌子的草',{D:1,L:1,unseen:true},L('旁白','石缝很窄，草叶却还在向外伸。没有脚步经过时，它们也没有停下。'),L('我','我先把这件事记下来。现在还说不出它的意思。'))
+]),
+C03:N('C03','两种声音','seed','both',[
+L('映红','原来是你在叹气。我还以为雨又下回来了。'),L('我','你听得见？我……还没有名字。'),L('兰序','那先用“小芽”称呼你，好吗？如果不喜欢，我们再换。'),L('映红','我是映红，她是兰序。别急着开花，先说说你在想什么。')
+],'先把哪个问题说出口？',[
+O('问映红：我怕被风吹倒，你能教教我吗？',{D:2,last:'D'},L('映红','可以呀。先别一下子把叶子全展开，试着转一点方向，看看哪样更稳。'),L('旁白','我照她说的试了试。虽然还是有点晃，却没有刚才那么害怕了。'),L('兰序','等这阵风小一点，我再给你看相册。里面有花的照片，也有巴中的故事。')),
+O('问兰序：相册里有哪些巴中的故事？',{L:2,last:'L'},L('兰序','有山上的杜鹃，也有红军医院里种兰花的故事。我可以慢慢讲给你听。'),L('旁白','她把相册放低，让我看得清楚。映红伸手扶住被风掀起的一页。'),L('映红','我们一起看。看完以后，你想试着站稳，我也陪你。')),
+O('问她们：你们也有不知道该怎么办的时候吗？',{D:1,L:1,reflect:true},L('映红','当然有。我以前总想一个人把事情做好，累了也不肯求助，结果反而耽误了事。'),L('兰序','我也帮过倒忙。我以为别人需要安静，后来问了才知道，他其实想找人说说话。'),L('我','原来你们也会弄错，也要一点点学。'))
+]),
+C04:N('C04','把花看清','azalea','ying',[
+L('旁白','册页上出现两张实物照片。我的根仍在土里，目光却像能跟着书页走远。'),L('映红','看我的花口：五个裂片，下面连在一起。上面那些深色小点，也别漏掉。'),L('兰序','春剑外面三枚是萼片，里面还有两枚花瓣和一枚特别的唇瓣。不能只数成“三片”。')
+],'想把哪一处看得更清楚？',[
+O('看杜鹃花冠与上部斑点',{D:2,last:'D',flowerD:true},L('旁白','映红把照片转向光亮处。我看见斑点集中在上部，花口向外张开。'),L('映红','山上也有别的杜鹃。别拿一整片花海，都当成同一种花。')),
+O('看春剑的外萼片和中央唇瓣',{L:2,last:'L',flowerL:true},L('旁白','兰序换了一页。细长的外萼片展开，花心却收得很紧。'),L('兰序','它们各有位置。不是长得一样，才算一起开花。')),
+O('对照花与它们身边的环境',{D:1,L:1,habitat:true},L('旁白','一张照片铺着满山花色，另一张的长叶从花序旁伸开。'),L('我','我不只看花了。光、土壤和水，好像也在照片里。'))
+],'botany'),
+C05:N('C05','风没有停','seed','both',[
+L('旁白','书页合上。一阵更强的风，把我的叶片压向地面。身旁的小芽几乎贴在土上。'),L('映红','别急着证明什么，先感觉一下根在哪里。'),L('兰序','我在这里。你可以告诉我们，你需要什么。')
+],'我怎样应对这阵风？',[
+O('立即重新撑起叶片',{D:2,last:'D',tried:true},L('旁白','我用力站起，却被下一阵风推了回来。这一回，我慢慢找到较稳的位置。'),L('映红','再来一次不丢脸。你已经知道哪一步太急了。')),
+O('先护住旁边那株小芽',{L:2,last:'L',protected:true},L('旁白','我偏过叶片替它挡住一小股风，自己的叶尖也开始发酸。'),L('兰序','它缓过来了。现在换个位置，让你也歇一会儿。')),
+O('沿着风的方向调整叶片',{D:1,L:1,adapted:true},L('旁白','我不再迎面顶住所有的风。转过一个角度，身上的力一下轻了。'),L('我','先前观察过的水路，让我想起：方向也许可以改变。'))
+]),
+C06:N('C06','被叫作市花以前','town','both',[
+L('我','你们的名字，是谁取的？'),L('兰序','我们是故事里的化身。真正的市花，是巴中在2021年9月23日一同发布的杜鹃和兰花。'),L('映红','不是谁先开得漂亮，就自己戴上市花的牌子。城市的山水、记忆，还有许多人的参与，都在里面。'),L('旁白','册页映出恩阳的街巷。我的根留在原地，这座城却离我近了一点。')
+],'夜色来临前，我还想追问……',[
+O('明明害怕，为什么还往前走？',{D:3,last:'D'},L('映红','那我们就从害怕的地方说起。先不用答应成为谁。'),L('旁白','她翻到夹着红色书签的一页。山脊从纸上展开。')),
+O('一件很小的关心，真的有分量吗？',{L:3,last:'L'},L('兰序','有时要先问：对谁有分量。我们去看一段和照护有关的记录。'),L('旁白','她翻到浅绿色书签。照片中的院落，安静地亮起来。')),
+O('成为市花，能代表一座城的全部吗？',{D:1,L:1,city:true},L('映红','当然不能。一朵花，再热闹也装不下所有人。'),L('兰序','它像一个让人继续了解城市的入口。剩下的，需要你慢慢看。'),L('旁白','我想起今天最放不下的问题。书页顺着那个念头，停在新的地方。'))
+],'city'),
+D01:N('D01','在山风里','ridge','ying',[
+L('旁白','书页里的光雾山铺向远处。映红没有把我带离土壤，只让我看见山上的风。'),L('映红','你问我为什么往前走。先试着站一站，再说答案。'),L('我','我还这么小，站得稳吗？')
+],'面对她的邀请……',[
+O('立刻迎风展开两片叶',{eager:true},L('旁白','我一下展开叶片。风像一只大手，压得我几乎说不出话。'),L('映红','慢点！我让你试，不是让你把退路也一起扔掉。')),
+O('先请她帮我看看根底',{prepared:true},L('旁白','映红指了指我根边松动的土。我挪正叶片，试着只承受一小阵风。'),L('我','这一次，我站住的时间长了一点。')),
+O('暂时不试，先看她示范',{watched:true},L('映红','行。你看我也会顺着风转身。'),L('旁白','她没有因为我退缩就收起邀请。我记下那个转身，准备下一次再试。'))
+]),
+D02:N('D02','不是每一朵都显眼','mountain','ying',[
+L('我','这么多花，人们能分清每一朵吗？'),L('映红','未必。你先告诉我，自己看见了什么。'),L('旁白','照片里有向阳处的花团，也有藏在叶后的小花。远处的山色，连成一片。')
+],'目光先停在……',[
+O('最鲜亮、最高的一簇花',{spotlight:true},L('旁白','我只顾抬头，差点没看见岩边那一点淡色。映红轻轻指给我。'),L('映红','你喜欢显眼的，也可以。只是别把没看见，当成不存在。')),
+O('岩缝旁不太起眼的花',{witness:true},L('旁白','我沿着那条狭窄的缝看过去。花的颜色没有那么亮，却也开得完整。'),L('我','如果不多看一会儿，我就错过它了。')),
+O('花与花如何连成山色',{witness:true,together:true},L('旁白','我试着不找“最好看”的一朵。许多不同的花，才让照片里有了整片山色。'),L('映红','有时，把目光放远一点，也就看见身边了。'))
+]),
+D03:N('D03','名字与记忆','memorial','ying',[
+L('旁白','映红翻过书页。花海退后，出现王坪纪念空间的当代照片。'),L('映红','在巴中，人们说起映山红，也会想起红军和革命老区的记忆。这是城市赋予花的意义。'),L('我','花的颜色，原来也会让人回头看。')
+],'我想了解……',[
+O('记录里那些有姓名的人',{memory:true},L('旁白','映红指向资料册里的历史条目，却没有替任何历史人物编一句话。'),L('映红','名字让我们有机会继续查，也提醒我们：每段记录后面，都曾有具体的人。')),
+O('那些尚未留下姓名的人',{memory:true,witness:true},L('旁白','我看着无名烈士纪念园的照片，很久没有晃动叶子。'),L('映红','不知道名字，不等于他们的生命没有分量。人们仍在纪念，也仍在寻找。')),
+O('后来的人怎样保存这些记忆',{memory:true},L('旁白','照片中的纪念空间经过修缮。映红把拍摄出处和年代也留在页脚。'),L('映红','记住不只是说一句话。保存、查证、讲清楚，也都需要人去做。'))
+],'memory'),
+D04:N('D04','我想开成红色','azalea','ying',[
+L('我','如果有一天，我也开得像你一样红……'),L('映红','你最想要的，是那种颜色，还是别人看见你时的目光？'),L('旁白','她没有催我。我第一次觉得，喜欢一种颜色，也可以有不止一个理由。')
+],'我诚实地说……',[
+O('我想让人一眼就看见我',{fame:true},L('映红','嗯，这是真话。先别急着把它藏起来。'),L('旁白','我有点窘，却也松了口气。她接着问：如果没有目光，还剩下什么？')),
+O('我想在需要的时候站出来',{purpose:true},L('映红','那就记住“需要”两个字。别只顾自己站得多高。'),L('我','我把目光放回身边的小芽。它还在风里。')),
+O('我还没分清颜色和愿望',{reflect:true},L('映红','没分清，就先留着这个问题。'),L('旁白','我把“红色”与“想被看见”分成两件事，慢慢想。'))
+]),
+D05:N('D05','身旁的风','seed','ying',[
+L('旁白','书页合上。真正的风又来了。身旁那株更小的芽，正努力不让叶尖碰到泥。'),L('我','我刚才学到的东西，现在能用上吗？'),L('映红','先看它，再看你自己。')
+],'我决定……',[
+O('独自挡住全部风',{overload:true},L('旁白','我挡到最前面。没过多久，两片叶子都酸得发抖，小芽也被我的晃动碰了一下。'),L('映红','先退半步。你把自己压垮，它也未必更安全。')),
+O('请周围的草叶一起分担',{collaborate:true},L('旁白','我向旁边轻轻碰了碰叶尖。几片草叶错开位置，风从间隙里散过去。'),L('我','原来我不用长成一堵墙。大家都留得出一点力。')),
+O('观察风向，给小芽留出背风处',{collaborate:true,applied:true},L('旁白','我慢慢转向，让小芽待在较缓的那一侧。风仍经过，却不再全压在它身上。'),L('映红','你在找办法了。不是只找一个看起来勇敢的姿势。'))
+]),
+D06:N('D06','把疲惫说出来','seed','ying',[
+L('旁白','风小了。我却有一片叶子垂着，怎么也抬不高。'),L('映红','累了？'),L('我','我想说没有。可叶尖已经替我摇了摇头。')
+],'这一次，我会……',[
+O('藏起疲惫，继续撑着',{hiddenFatigue:true},L('旁白','我说没关系，叶子却更低了。映红蹲下来，等我重新开口。'),L('映红','你可以晚一点再告诉我。但身体不会因为藏着就不累。')),
+O('告诉映红，我需要缓一缓',{acceptHelp:true},L('我','我需要休息一会儿。'),L('旁白','说完这句话，反而没有我想象中那么难。映红守在旁边，替我留出安静的时间。')),
+O('请身边草叶替我接一会儿风',{acceptHelp:true,sharedCare:true},L('旁白','我说出自己能做多久，也说出现在做不到的部分。旁边的叶片挪了过来。'),L('映红','这也是站在一起的一种办法。'))
+]),
+D07:N('D07','一句勇敢之后','seed','ying',[
+L('旁白','小芽终于站稳了。它碰了碰我的叶尖，轻轻说：“你真勇敢。”'),L('我','那几个字让我忍不住又挺了挺。'),L('映红','听见夸奖很高兴吧？接下来呢？')
+],'我接下来的动作是……',[
+O('再做一个更大的迎风动作',{perform:true},L('旁白','我向风口伸得更远，小芽却不安地缩了一下。'),L('我','我停下来。这一回，我好像只顾着听那句夸奖。')),
+O('回头看看小芽是否真的安全',{purpose:true,checked:true},L('旁白','我看见它最下面的叶片还沾着泥，便给它留出抬头的位置。'),L('映红','嗯。夸奖可以收下，要照顾的事也还在这里。')),
+O('承认自己刚才其实很害怕',{purpose:true,honest:true},L('我','我刚才怕得叶尖都在抖。'),L('旁白','小芽又碰了碰我。这次，我没有再急着挺高。'))
+]),
+D08:N('D08','如果明天没有人经过','ridge','ying',[
+L('旁白','照片里的山脊又亮了一次。风吹过那些不易被看见的花。'),L('映红','假如明天这里很安静，没有人走过，你还记得今天做了什么吗？')
+],'我想了想，说……',[
+O('没有人看见，今天是不是白费了？',{unresolved:true},L('映红','那株小芽的叶子已经站起来了。这件事不会因为没人路过，就重新变回去。'),L('我','我听见了，却还没完全相信。这个问题仍在心里。')),
+O('小芽已经好好站着了',{meaning:true,purpose:true},L('我','即使明天没人经过，今天的风也已经过去了。'),L('旁白','映红笑了一下。我第一次没有问，她是不是觉得我做得好。')),
+O('我仍想被看见，但也愿意继续',{meaning:true,purpose:true},L('映红','两个愿望可以一起存在。你只要别把另一个人的需要忘掉。'),L('旁白','我没有忽然变得毫不在意。我只是多了一个继续的理由。'))
+]),
+D09:N('D09','花芽将开','azalea','ying',[
+L('旁白','很久之后，花芽在晨光里松动。童话里的春天，把一种红色递到我面前。'),L('我','我想起山风，也想起小芽和向我伸来的叶片。'),L('映红','你走过的路，已经留在这里了。')
+],'面对将开的花芽……',[
+O('赶在所有人之前打开',{finalD:'rush'},L('旁白','我急着把每一片花瓣都打开，像怕迟一点，目光就会散去。'),L('映红','慢一点。花已经在你身上，不会因为歇一会儿就不见了。')),
+O('等风缓一缓，按自己的节奏展开',{finalD:'steady'},L('旁白','我没有追着第一束光。等叶片舒展开，花芽才慢慢打开。'),L('我','我还会害怕。但这一次，我知道自己想把颜色留在哪里。')),
+O('请伙伴陪我再试一次',{finalD:'together',acceptHelp:true},L('我','能在这里陪我一会儿吗？'),L('旁白','几片叶子轻轻碰过来。我迎着风，将花一点点展开。'))
+]),
+L01:N('L01','先听见自己','orchid2','lan',[
+L('旁白','兰序把记录册放得很低，像怕挡住我头顶那一点光。'),L('我','如果我先猜到你希望的答案，你会不会更喜欢我？'),L('兰序','我希望听见你。但那不是一个需要你猜中的答案。')
+],'我怎样开始这段谈话？',[
+O('先说出自己的困惑',{express:true},L('我','我怕没有用处，就不值得开花。'),L('旁白','兰序合上半页书，认真听我说完。没有立刻拿道理盖过去。')),
+O('先说她可能喜欢听的话',{please:true},L('我','我想一直帮助所有人。'),L('兰序','一直？所有人？这句话里，有你自己的位置吗？'),L('旁白','我愣了一会儿，发现自己还没想过。')),
+O('先听她，再请她也听听我',{express:true,reciprocal:true},L('我','你讲完以后，能不能也听我说一会儿？'),L('兰序','当然。记录不是只留给一个声音的。'))
+]),
+L02:N('L02','院落里的兰香','hospital','lan',[
+L('旁白','书页映出通江县王坪的红四方面军总医院旧址群。这是一张今天的照片，往事由记录慢慢讲来。'),L('兰序','巴中发布市花的报道讲过：张琴秋和女战士把兰花带到伤病员身边，也在医院周围栽种，让休养环境多一点清馨。'),L('我','在那样的日子里，人们也还记得花。')
+],'我最想弄清……',[
+O('花为什么被带到医院',{record:true},L('兰序','它们让养伤的地方多了一点舒适。这不替代医药，却是照护中具体的一部分。'),L('旁白','我看着院落，想起自己脚边那一点能分出去的水。')),
+O('当时的救治有多困难',{record:true},L('兰序','关于王坪医院的报道记述了缺医少药的处境。今天看见的屋舍，不能替我们轻易说完当年的困难。'),L('我','我把原来的问题放轻了一些：小事，并不代表轻易。')),
+O('这些故事里，哪些能够确定',{record:true,evidence:true},L('兰序','种兰的故事见于市花发布报道。但我们没有当年的种兰现场照片，也不能断言每株都是今天某个春剑品种。'),L('旁白','她给这一页留下出处，也留下尚不知道的空白。'))
+],'hospital'),
+L03:N('L03','花能够做什么','orchid','lan',[
+L('我','那么，花能让伤口好吗？'),L('兰序','不能把花香当成治伤的医药。希望是一回事，能够做什么，是另一回事。'),L('旁白','我看着她书页里的花。它忽然没有那么神奇，却离我更近了。')
+],'我继续问……',[
+O('如果花能解决所有痛苦就好了',{wish:true},L('兰序','这是很温柔的愿望。只是当它做不到时，不能把责任全放回花身上。'),L('我','也不能都放在自己身上，对吗？她轻轻点头。')),
+O('花实际能做的那一点是什么？',{careInsight:true},L('兰序','让人愿意抬头看看，也让休养的地方更舒适一点。对一个具体的人，那一点就可能有意义。'),L('旁白','我不再拿“解决全部”来衡量它。')),
+O('医药、照护和慰藉可以一起存在',{careInsight:true},L('我','不一样的帮助，不必抢同一个位置。'),L('兰序','嗯。也不用因为自己做不到全部，就把能做的部分抹掉。'))
+]),
+L04:N('L04','先问一问','seed','lan',[
+L('旁白','册页回到眼前的土壤。身旁的小芽垂着一片叶，几乎不说话。'),L('我','我是不是该立刻替它做些什么？'),L('兰序','你愿意先知道，它怎么了吗？')
+],'我试着……',[
+O('立即替它挡住光',{assumed:true},L('旁白','我挡到它面前。小芽却努力挪向光亮：“我想晒一会儿。”'),L('我','我赶紧让开。原来我替它猜的需要，并不是它的需要。')),
+O('问它是渴、累，还是想安静',{listen:true},L('旁白','小芽说，它只是有点累，想安静片刻。我收起连着问出的那些话。'),L('兰序','听见需要以后，有时要做的反而少一点。')),
+O('观察土和叶片，再向它确认',{listen:true,observeCare:true},L('我','土还是湿的。你是不是想休息，而不是再要水？'),L('旁白','小芽轻轻点头。我把准备好的水留在自己的根边。'))
+]),
+L05:N('L05','没有一句谢谢','seed','lan',[
+L('旁白','过了一阵，小芽慢慢舒展开，却没有再说话。'),L('我','它是不是不喜欢我帮的忙？'),L('兰序','你可以问它。但别替沉默马上写好解释。')
+],'我接下来……',[
+O('继续忙碌，直到它回应我',{approval:true},L('旁白','我一会儿替它挡风，一会儿想替它引水。小芽缩了缩：“让我安静一下，好吗？”'),L('我','我终于停下。忙碌并没有让我更懂它。')),
+O('问它还需要帮助吗',{listen:true,checkNeed:true},L('旁白','小芽说，现在已经够了。我把剩下的力气收回来，慢慢抬高自己的叶片。'),L('兰序','停在这里，也是听见它的回答。')),
+O('留出空间，也照顾自己的生长',{rested:true},L('旁白','我挪开一点。光同时落在我们身上。过了很久，小芽在安静里碰了碰我。'),L('我','原来陪伴，也可以不一直做些什么。'))
+]),
+L06:N('L06','我也需要水','seed','lan',[
+L('旁白','太阳出来后，根边的水少了。我自己的叶尖也开始软下来。'),L('我','如果我把最后一点水留下，是不是不够好？'),L('兰序','你在问我之前，根已经在告诉你答案了。')
+],'我决定……',[
+O('仍把最后一点水全让出去',{drained:true},L('旁白','我低下叶尖，随后连抬头都很吃力。小芽不安地靠过来。'),L('兰序','它不希望你倒下。你也在这片需要照护的地方里面。')),
+O('只分出能承担的部分',{boundary:true},L('我','我能分一点，但我也需要水。'),L('旁白','说出这句话时，我没有失去朋友。我们只是重新安排了那一点水。')),
+O('请周围草叶一起寻找水路',{boundary:true,coCare:true},L('旁白','我想起叶脉上的水珠。周围的叶片也动起来，试着把能接到的水引向土里。'),L('兰序','把需要说出来，事情就有机会交给更多双手。'))
+]),
+L07:N('L07','无人注意的香气','orchid2','lan',[
+L('旁白','照片里的春剑静静开着。没有谁站在旁边，专门为它鼓掌。'),L('我','如果没有人说好闻，香气是不是就没有用？'),L('兰序','你自己呢？你喜欢它吗？')
+],'我回答……',[
+O('一定是我还不够好',{selfDoubt:true},L('兰序','先把这句判断放一放。你还没有问过自己，就已经判自己不够好了。'),L('旁白','我垂下叶尖。这个习惯，原来还没有离开。')),
+O('先问别人是否需要这样的陪伴',{respect:true},L('我','不需要的时候，我也可以站远一点。'),L('兰序','是。关心不必把每个人留在自己的香气里。')),
+O('我也喜欢自己的香气',{respect:true,selfValue:true},L('旁白','说完我有点不好意思，却没有把话收回去。'),L('兰序','这一页，终于有你自己的感受了。'))
+]),
+L08:N('L08','陪伴到什么时候','town','lan',[
+L('旁白','小芽问：“你会一直在旁边吗？”书页上的老街渐渐有了灯火。'),L('我','我很想马上答应它。可我也会累，也还要继续长大。'),L('兰序','它说出了愿望，你也可以说出自己的实际情况。')
+],'这一次我会……',[
+O('不论多累，都立刻答应',{promisedAll:true},L('旁白','答应出口后，我却开始害怕哪一天做不到。'),L('兰序','承诺不是把以后的自己藏起来。你仍有机会重新说清。')),
+O('说明自己能陪多久，也需要休息',{boundary:true,promiseClear:true},L('我','我会陪你一会儿。累了我会告诉你，等缓过来，再听你说。'),L('旁白','小芽安静地听完。我们的约定变小，却也更能做到。')),
+O('让它认识更多可以互相照应的伙伴',{boundary:true,network:true},L('旁白','我向旁边的草叶介绍它。小芽的世界，渐渐不只剩下我这一片叶子。'),L('兰序','你们都多了一些可以安心生长的空间。'))
+]),
+L09:N('L09','给根留一点水','orchid','lan',[
+L('旁白','童话里的日子过去，花芽慢慢饱满。我的叶片，已经记得许多次停下与靠近。'),L('兰序','花将要开了。你想怎样迎接它？')
+],'我选择……',[
+O('急着成为所有人都需要的花',{finalL:'please'},L('旁白','我想把香气送到每一个角落，却忘记根边还空着。'),L('兰序','先回来看看自己。没有一朵花，需要靠答应所有人才能站在这里。')),
+O('先照顾自己的根，再慢慢展开',{finalL:'root'},L('旁白','我给根留下一点水，等叶片重新有力。花芽松开的时候，我没有再催它。'),L('我','我想陪伴别人，也想好好地长在这里。')),
+O('告诉伙伴：我也需要被陪伴',{finalL:'share',express:true},L('我','今天，你能不能也陪我一会儿？'),L('旁白','小芽靠近我的叶片。那一点熟悉的温度，让我放心地展开花芽。'))
+]),
+H01:N('H01','两段熟悉的风','seed','both',[
+L('旁白','又一道光落在叶尖。这次，花芽里藏着两段熟悉的记忆。'),L('我','我记得风，也记得留给根的水。可是……如果我学会了你们的事情，却没有长成你们的花呢？'),L('兰序','那我们就陪你看看，会开出什么来。'),L('映红','先别替花芽写答案。')
+],'面对这段新的生长……',[
+O('先挑一个最像的样子模仿',{imitation:true},L('旁白','我把自己想成某一种颜色，却总觉得叶尖还藏着别的话。'),L('映红','你可以喜欢我们。也可以把剩下的部分留给自己。')),
+O('把两段经历都留下，暂不命名',{integrate:1},L('旁白','我没有丢掉任何一段风。它们都停在叶片里，却不再争着替花芽取名。'),L('我','这一回，我想再看久一点。')),
+O('请她们陪我观察真实的需要',{integrate:1},L('兰序','那就先看眼前。不是所有答案，都要从书里找。'),L('旁白','我把目光放回身旁的小芽。'))
+]),
+H02:N('H02','既行动，也听见','seed','both',[
+L('旁白','小芽又在风里低下头。我已经知道许多种办法，却仍不知道它此刻需要哪一种。')
+],'我先怎样做？',[
+O('立即按上一次的办法挡住风',{repeat:true},L('旁白','它轻轻躲开：“这次我想先把叶片转过去。”'),L('我','原来经历过一次，也不能替今天的它作答。')),
+O('等所有事情都确定才动',{hesitate:true},L('旁白','我一直看着，直到小芽喊我。等待本来可以是倾听，也可能变成不敢回应。'),L('映红','你可以先问，同时给它一点能用上的帮助。')),
+O('先确认需要，再一起调整位置',{integrate:1},L('旁白','我听完它的话，留出一小片背风的空间。它自己转过叶片，我也没有独自扛起全部风。'),L('我','这次，行动和倾听没有挤掉彼此。'))
+]),
+H03:N('H03','每一种花都有来处','mountain','both',[
+L('旁白','光雾山的花海与春剑的照片，并排出现在书页上。'),L('我','城市为什么需要两种花？'),L('兰序','它们各自连着地方的植物资源与记忆。我们把它理解为互相补充的城市表达，而不是一场谁更好的比赛。')
+],'我怎样理解它们？',[
+O('一定要选出更能代表城市的一种',{rank:true},L('映红','你当然可以偏爱一种。不过偏爱，不必变成另一种没有价值。'),L('旁白','我把原本想画的名次，轻轻擦去。')),
+O('看见共同记忆，也保留各自的形状',{integrate:1},L('旁白','杜鹃没有长成兰花，春剑也没有铺成同一片红。它们仍各自站在这一页上。'),L('我','在一起，不等于变得一样。')),
+O('只留下抽象品格，不再看真实植物',{abstract:true},L('兰序','品格是人的理解。花仍有自己的形状、环境与生长。'),L('旁白','我重新打开实物照片，把名字与真实的花放在一起。'))
+],'city'),
+H04:N('H04','走不到的地方','town','both',[
+L('旁白','书页映出恩阳街巷。人们有的赶路，有的停下。我的根仍留在原地。'),L('我','我不能走到每个人身边。这样的小地方，也够我生长吗？')
+],'我决定……',[
+O('只做此刻能够做到的事',{integrate:1},L('旁白','我把阴影留给身边的小芽，也给自己留住一束光。这里很小，却不是空的。')),
+O('等变得足够特别，再开始生活',{waiting:true},L('映红','你今天接住过雨，也听过别人说话。生活好像没有等你拿到特别的牌子。'),L('我','我低头看见根边的水。原来已经开始了。')),
+O('请伙伴帮忙，把做不到的部分说清',{integrate:1},L('旁白','说清以后，边界没有变成一堵墙。它让我们知道，哪里可以一起伸出手。'))
+]),
+H05:N('H05','无名也在生长','seed','both',[
+L('我','如果我开的花，没有被选成市花，也没人给它立一块牌子呢？'),L('兰序','名字可以帮助人认识你。它不能替你过完生长。'),L('映红','你已经有自己的经历了。')
+],'我想留下……',[
+O('一个一定会被所有人记住的名字',{demandName:true},L('旁白','我想了许多名字，却没有一个能保证“所有人”。花芽仍在自己的节奏里松动。')),
+O('今天做过的事，与自己的感受',{integrate:1},L('旁白','我记得害怕，也记得被陪伴。那些没有写在牌子上的事，都留在叶片里。')),
+O('继续观察的耐心和再次尝试的勇气',{integrate:1},L('我','我不一定每次都做得好，但可以再问一次，再试一次。'),L('旁白','这句话，不再需要谁替我说。'))
+]),
+H06:N('H06','为自己而开','seed','both',[
+L('旁白','花芽终于有了自己的轮廓。它不像她们任何一朵，也并非从此就不再需要她们。'),L('我','原来我可以带着学到的东西，长成另一个样子。')
+],'我怎样迎接这朵花？',[
+O('如果不像市花，就先把它藏起来',{finalH:'hide'},L('旁白','我护住花芽，仍不太敢让光照进来。两位化身没有催促，只把书页留在身旁。')),
+O('给根留水，向光展开自己的花',{finalH:'open'},L('旁白','我慢慢打开花芽。风仍会来，雨仍会落，我也仍在这里。'),L('我','这一次，我不借谁的名字证明自己。')),
+O('请朋友一起见证，也接纳自己的不确定',{finalH:'share'},L('我','我还不知道它会叫什么。你们愿意看看吗？'),L('旁白','映红与兰序低下身。身边的小芽碰了碰我。光从我们之间穿过去。'))
+])
+};
+const ENDINGS={
+Dgood:{name:'向山而开',flower:'杜鹃',actor:'ying',bg:'mountain',best:true,text:'我开成了杜鹃。那不是一次终于换来掌声的表演。我仍会害怕，也仍喜欢被看见；但我记得身旁的小芽，记得伸过来的叶片。红色落在风里，我知道自己可以行动，也可以接受帮助。'},
+Dgrow:{name:'仍在风里',flower:'杜鹃',actor:'ying',bg:'ridge',best:false,text:'我开成了杜鹃，却还会下意识寻找路人的目光。映红没有替这段生长盖上失败的印章。她只提醒我回头看看：被照顾的小芽，已经站起来了。花开以后，学习仍可以继续。'},
+Lgood:{name:'为你留香',flower:'春剑',actor:'lan',bg:'orchid2',best:true,text:'我开成了春剑。给根留一点水，再将香气轻轻送出去。我开始询问，学会停下，也敢说“今天我需要陪伴”。关怀不再是一张必须讨好所有人的答卷，而是两个生命都能继续生长的空间。'},
+Lgrow:{name:'香气未歇',flower:'春剑',actor:'lan',bg:'orchid2',best:false,text:'我开成了春剑，却还常把别人是否回应，看成自己是否值得的答案。兰序在记录册里留下一页空白，等我慢慢写进自己的需要。香气没有停止，我也还有重新理解陪伴的时间。'},
+Hgood:{name:'自己的模样',flower:'未命名的小花',actor:'both',bg:'seed',best:true,text:'花开了，没有借用两位市花的名字。我带着映红的勇气，也带着兰序的倾听，在需要时靠近，在疲惫时停下。我的意义不只来自被看见，也不只来自被需要。根扎在这座城里，而花，终于长成了自己的模样。'},
+Hgrow:{name:'未命名的春天',flower:'尚未展开的花芽',actor:'both',bg:'seed',best:false,text:'我还没能完全放下比较，也还不太敢迎接那朵陌生的花。花芽没有因此失去自己的季节。她们把记录册留在我身旁：不必赶在今天写完答案，下一次，仍可以从自己的感受开始。'}
+};
+function routeFor(r){return r.D===r.L?(r.last||'D'):(r.D>r.L?'D':'L');}
+function endingFor(r){const f=r.flags;if(r.route==='D')return f.collaborate&&f.acceptHelp&&f.purpose&&f.meaning&&f.finalD!=='rush'?'Dgood':'Dgrow';if(r.route==='L')return f.listen&&f.boundary&&f.respect&&f.careInsight&&f.finalL!=='please'?'Lgood':'Lgrow';return (f.integrate||0)>=3&&f.finalH!=='hide'?'Hgood':'Hgrow';}
+function applyEffects(r,e){for(const[k,v]of Object.entries(e)){if(k==='D'||k==='L')r[k]+=v;else if(k==='last')r.last=v;else if(k==='integrate')r.flags.integrate=(r.flags.integrate||0)+v;else r.flags[k]=v;}}
+function nextId(r,id){const group=id[0],n=Number(id.slice(1));if(group==='C'&&n===6){r.route=routeFor(r);return r.route+'01';}const max=group==='C'||group==='H'?6:9;return n<max?group+String(n+1).padStart(2,'0'):null;}
+if(typeof module!=='undefined')module.exports={STORY,ENDINGS,routeFor,endingFor,applyEffects,nextId};
+</script><script>/* 出场、表情和照片由当前节点与当前对白决定。文化稿另在本文件后载入。 */
+function presentationFor(n,line,pending=false){
+ const who=line?.who;
+ let actor=line?.actor||n.actor,bg=line?.bg||n.bg;
+ if(n.id==='C01')actor='none';
+ if(n.id==='C02'&&pending)actor='both';
+ if(n.specimen==='azalea')bg='mountain2';
+ if(n.specimen==='orchid')bg='orchid2';
+ if(n.photoPanel==='orchidCulture')bg='orchid';
+ if(actor!=='none'&&actor!=='both'){
+  if(who==='兰序')actor='lan';
+  if(who==='映红')actor='ying';
+ }
+ let mood=({C01:0,C02:0,C03:3,C04:3,C05:3,C06:3,D01:0,D02:1,D03:2,D04:2,D05:3,D06:3,D07:0,D08:2,D09:3,L01:1,L02:2,L03:3,L04:3,L05:2,L06:3,L07:2,L08:0,L09:1,H01:0,H02:3,H03:3,H04:3,H05:0,H06:1})[n.id]??0;
+ mood=line?.mood??n.mood??(pending?0:mood);
+ if(actor==='both'&&typeof mood==='number'&&who==='映红')mood={ying:mood,lan:0};
+ if(actor==='both'&&typeof mood==='number'&&who==='兰序')mood={ying:0,lan:mood};
+ return {actor,mood,acting:actingFor(n,line,pending),...polishedPhoto(n,bg)};
+}
+</script><script>/* 文化主线第四稿：同一段地方记忆，由不同的相遇方式继续。
+ * 加载顺序：story.js → presentation.js → culture_story.js → app.js。
+ * 无名草籽、旁边的幼芽及两位化身的经历均为原创童话；资料边界置于 tips。
+ * variants 只读此前节点写下的 flag，不更改自身的 when 条件。
+ */
+(()=>{
+const E=(who,text,mood)=>Object.assign(L(who,text),{mood});
+const tip=(who,title,text,source,sourceUrl)=>({who,title,text,source,...(sourceUrl?{sourceUrl}:{})});
+const note=(node,who,title,text,source)=>Object.assign(node,{tips:tip(who,title,text,source)});
+Object.assign(STORY,{
+C01:N('C01','我为什么要开花','seed','none',[
+L('旁白','雨停后，一粒落在巴中的无名草籽，第一次把叶片伸出了土。'),
+L('我','有人从小径经过，指着手里的花卉照片说：“这是我们巴中的市花。”'),
+L('我','它们有名字，还有人特意来看。我只认得自己的两片小叶。'),
+L('我','如果我开的花很普通，没有人注意，还值得开吗？')
+],'哪个念头先冒了出来？',[
+O('我也想开得鲜亮，让路过的人停一下',{D:2,last:'D',firstWish:'seen'},L('我','我把叶片朝亮处伸了伸，想象有人低下头，认真看看我。'),L('旁白','可人已经走远了。这个愿望，暂时只说给了自己。')),
+O('我想知道，人们为什么会惦记一朵花',{L:2,last:'L',firstWish:'connection'},L('我','那个人说“我们的市花”时，像在介绍熟悉的朋友。'),L('我','是什么让一座城的人，和两种花有了这样的关系呢？')),
+O('我想先认识花，再想自己要开成什么样',{D:1,L:1,firstWish:'discover'},L('我','我连照片上的花都还没认清。也许，可以从看清它们开始。'),L('旁白','我没有收起那个疑问，只把它留到遇见懂花的人时再问。'))
+]),
+C02:note(N('C02','两位市花来访','seed3','both',[
+E('映红','你好呀！我是映红，杜鹃的化身。看你瞧得这么认真，我也想凑过来看看。',0),
+L('兰序','我叫兰序，是春剑的化身。你愿意的话，我们可以陪你慢慢看。'),
+L('我','我还没开过花。你们为什么成为市花？开花是不是要像你们才有意义？'),
+L('兰序','相册里有真花，也有巴中的照片。我放低一点，你在这里就能看清。'),
+E('映红','我还想听听你自己的想法呢！不如一起看看花、听听故事，说不定就有新主意了。',3)
+],'我先把哪种心情告诉她们？',[
+O('看见鲜亮的花，我就想再长高一点',{D:2,last:'D',meetingWish:'color'},L('映红','嘿，跟我一样！我每次看见一大片花，也想再靠近点。照片放这儿，你瞧瞧够不够近？'),L('旁白','她把照片凑近了些。我不必使劲伸叶子，也能看清。')),
+O('听见“我们的市花”，我觉得有点羡慕',{L:2,last:'L',meetingWish:'belong'},L('兰序','你羡慕的是被大家认识，还是有人亲切地说起自己？'),L('我','好像都有。我想先听听，人们为什么这样说起你们。')),
+O('我有很多问题，想一个个弄明白',{D:1,L:1,meetingWish:'questions'},L('映红','好呀，咱们从这张开始。你瞧，这个花口让你想到了什么？'),L('兰序','我听着呢。哪一处还想不明白，我们就在那一页多待一会儿。'))
+]),'lan','故事里的化身','两位化身、无名草籽和旁边的幼芽均为原创童话。真实植物不会因个人选择改变物种；历史记录与虚构的相遇分别说明。','city'),
+C03:note(N('C03','认一认映山红','azalea','ying',[
+L('映红','这就是我对应的真花——映山红！花口上这些小斑点，你是不是也在我的裙子上见过？'),
+L('我','花口像五片小扇子，是五片分开的花瓣吗？'),
+L('映红','看着像五片吧？其实下面连在一起，花口才分成五个裂片，像个小漏斗。上面还有深色斑点。'),
+L('映红','杜鹃这个大家族可热闹了！认得眼前这一种以后，山里的其他杜鹃，咱们也能慢慢认识。')
+],'我想凑近看哪一处？',[
+O('看清五个裂片，听她解释花口怎样连着',{D:1,flowerD:true,formD:true},L('旁白','正面照片能认出五裂轮廓。听映红说，花冠下面相连，整朵像个小漏斗。'),L('我','这张不容易看见基部。下次有侧面的照片，我还想再看看。')),
+O('看看上部斑点和细长的花蕊',{D:1,flowerD:true,spotsD:true},L('映红','我也最爱找这些小斑点！颜色相像的红花不少，花口和花蕊还能帮忙认一认。'),L('旁白','小斑点比我想的清楚，细长的花蕊也各有自己的位置。')),
+O('把花、叶子和枝条一起看',{D:1,flowerD:true,wholeD:true},L('我','一朵花认完，我还想知道它长在哪样的枝叶上。'),L('映红','咦，你连枝叶也留意到了！我把这张也夹好，下回咱们一起认认看。'))
+],'botany'),'ying','映山红：合生五裂','典型花冠为宽漏斗形，基部合生、上部五裂，常有深色斑点；常见十枚雄蕊，另有一枚花柱。光雾山的杜鹃景观包含多个物种，不能把所有花海都鉴定为映山红。','botany'),
+C04:note(N('C04','认一认巴山春剑','orchid3','lan',[
+L('兰序','这一页是春剑。先看长长的叶，再看花，你觉得和刚才哪里不同？'),
+L('我','外面展开的好像只有三枚。整朵花只有三瓣吗？'),
+L('兰序','外轮三枚叫萼片。里面还有两枚花瓣，另一枚特别的花瓣叫唇瓣。'),
+L('兰序','唇瓣常在下方，和另外两枚不一样。我们慢慢分，不急着一次数对。')
+],'我想用哪种方法认识它？',[
+O('先找外轮三枚萼片，再往里看',{L:1,flowerL:true,sepalL:true},L('旁白','上面一枚，两侧各一枚。我先记住外面的三个位置，再看中央。'),L('兰序','嗯，上面一枚，两边各一枚。你已经找到它们了。')),
+O('从最特别的唇瓣开始，看看它和谁不同',{L:1,flowerL:true,lipL:true},L('旁白','下方那枚的轮廓与纹斑吸引了我，再往上，才看到靠近花心的两枚花瓣。'),L('我','原来同一朵花里面，也不必每一部分都长得一样。')),
+O('把两种花并排，找一处最明显的不同',{L:1,flowerL:true,compareFlowers:true},L('我','映山红连成一个花口，春剑能分出外萼片、内花瓣和唇瓣。'),L('兰序','你刚才看得很仔细。下次再遇见花，我们就从这处差别认起。'))
+],'botany'),'lan','春剑：3＋2＋1','外轮三枚萼片；内轮两枚普通花瓣，加一枚特化的唇瓣。不能说整朵只有三片，也不能画成五枚相同花瓣。不同春剑品种的花色和瓣型会有差别。','botany'),
+C05:note(N('C05','市花是怎样选出的','cityAzalea','both',[
+L('我','花我开始认得了。可是，谁决定让它们代表巴中呢？'),
+L('兰序','2021年5月28日，巴中启动市树市花征集。市民参与推荐，也有专家论证。'),
+L('映红','选花时，大家也在说自己珍惜怎样的家乡。山水、生活、记忆，都跟着花一起被提起。'),
+L('兰序','同年9月23日，杜鹃和兰花一同被发布为巴中的市花。')
+],'这让我更想了解……',[
+O('山里常见的花，怎样变成家乡的印象',{D:1,L:1,cityHistory:true,cityInterest:'land'},L('映红','我有时一看见花，就想起照片里的那段山路。这张里就有，咱们一起找找？'),L('我','我想看看，花没有被摘出风景以前是什么样。')),
+O('一段往事，怎样留在一朵花的名字里',{D:1,L:1,cityHistory:true,cityInterest:'memory'},L('兰序','有的联系来自后来的人一再讲述。我们听故事，也看看他们记住了什么。'),L('旁白','她把夹着旧址照片的一页留在手边，等我继续问。')),
+O('两种花一起介绍城市，会有什么不同',{D:1,L:1,cityHistory:true,cityInterest:'both'},L('映红','像咱们俩翻相册呀！我总先找亮眼的花色，兰序说不定已经在看细长的叶子了。'),L('兰序','那就把两页都留着吧。我也想看看，你从中发现的会不会和我们不同。'))
+],'city'),'ying','市花发布的时间线','2021年5月28日启动征集，经过公众参与和专家论证等环节，2021年9月23日同时发布两种市花。本作对“双花互补”的解释是基于资料的分析，不冒充会议原话或另行编造票数。','city'),
+C06:note(N('C06','我想怎样开花','cityOrchid','both',[
+L('兰序','巴中在四川东北部的大巴山地区。山地环境里，有丰富的杜鹃和兰花资源。'),
+L('映红','杜鹃连着这里的山花景观，也常让人想起革命老区的红色记忆。'),
+L('兰序','兰花里，巴山春剑很有地方特色。市花发布报道还讲到王坪医院的战地兰香。'),
+L('我','两种花都不是只有一个漂亮名字。听到这里，我对自己的花也多了些想法。')
+],'如果将来真的开花，我更期待……',[
+O('让一个人愿意停下，从我这里多看见一点',{D:3,last:'D',bloomWish:'show'},L('我','我想把喜欢的颜色和刚认识的事情，都大方地展示出来。'),L('映红','听起来真让人期待！哪天有人停下来看你的花，我也想听听你会跟他聊些什么。')),
+O('和身边的人有一点联系，让相遇舒服一些',{L:3,last:'L',bloomWish:'care'},L('我','不一定有很多人。哪怕只陪身边的幼芽，认清一朵花也好。'),L('兰序','那我们就从具体的相遇慢慢看。喜欢、关心和生长，都需要一点时间。')),
+O('保持好奇，慢慢弄清自己真正喜欢什么',{D:1,L:1,bloomWish:'explore'},L('我','现在还不想定一个最后的答案。我想沿着今天最牵挂的问题再走一段。'),L('兰序','可以。另一页也会一直留在相册里，不会因为先看这里就消失。'))
+],'city'),'lan','自然资源与文化线索','杜鹃景观、地方兰花资源和红色历史记忆，是理解两种市花代表性的线索。勇气与关怀是本作的人格化提炼，不是植物天生的性格，也不是两种花之间的价值排名。','city'),
+D01:note(N('D01','花开在山里','mountain','ying',[
+L('旁白','映红摊开光雾山的照片。花丛沿着山地展开，远处有人正停下脚步。'),
+E('映红','这张我可喜欢了！花丛连成一大片，看着就想往前走。你最先注意到哪里？',0),
+L('我','和单独一朵的特写比起来，这里的花好像有了邻居和住的地方。')
+],'我想先看……',[
+O('凑在一起的花，看看颜色怎样连成一片',{dFirstFocus:'flower'},L('旁白','我沿着花丛找，发现近处深一点，远处又淡了些，不是整齐的一块红。'),L('映红','对吧，凑近了看又不一样！我这儿还有张近景，等会儿给你瞧瞧。')),
+O('花丛旁的山路，想象人怎样走近它们',{dFirstFocus:'place'},L('我','人沿着路靠近，先看见远山，再看见身边的花。'),L('映红','你先找到路了呀！我光顾着看花，这下也想沿着它往远处看看了。')),
+O('停下赏花的人，猜猜他们注意到了什么',{dFirstFocus:'people'},L('旁白','有人举着相机，有人偏头看花。我想知道他们各自会记住哪一处。'),L('映红','我也好奇！咱们把问题夹在这里，等幼芽来看相册，就问问它先看见了什么。'))
+],'botany'),'ying','地方景观，不等于物种特写','光雾山杜鹃景观包含多个物种。环境照用于认识地方花海、山地与赏花生活；映山红形态仍以有明确物种标识的特写为准。','botany'),
+D02:N('D02','一山不同的花期','flowerWalk','ying',[
+L('我','这里花多，那张少一些。是人来晚了吗？'),
+L('映红','说不定还早呢。海拔、种类不一样，花就会错着开；天气也会让花期变一变。'),
+E('映红','我以前翻照片，也总挑最热闹的那张。多看几次，才发现少开一点也有东西可看。',0)
+],'想到自己还没花芽，我想……',[
+O('试着每天记下叶片变化，看看准备了什么',{dPace:'record'},L('旁白','映红俯身看了看我的两片叶子，记下今天的模样，又在旁边补上日期。'),L('我','原来生长不是只有花开的那一天，前面也有很多小变化。')),
+O('问问花要怎样照顾，把眼前的日子过好',{dPace:'care'},L('我','先有适合自己的水和光，花芽才有机会慢慢长大。'),L('映红','那咱们就一天天来！你想看的那几张，我都替你夹好了，什么时候想看都在。')),
+O('多看几种花期，找一张我自己最喜欢的',{dPace:'compare'},L('旁白','我挑中一张有零星花色的山坡。花少些，反而能看清后面的路。'),L('映红','好呀，就这张！你一说，我也觉得后面的山路特别清楚。'))
+],'botany'),
+D03:note(N('D03','红色里的记忆','memorial','ying',[
+L('旁白','下一页是王坪纪念园的当代照片。映红放慢了翻页的动作。'),
+L('映红','巴中是川陕革命根据地的重要区域。这里的人说起映山红，也会想到红军和革命老区。'),
+L('我','刚才我只在找颜色。这一页，我想多停一会儿。'),
+L('映红','好，我陪你慢慢看。这一页，不用急着说些什么。')
+],'我愿意先从哪里读起？',[
+O('沿着能看清的姓名和地点，读一段记录',{dHistory:true,dMemoryEntry:'names'},L('旁白','映红把地点指给我，陪我一行一行读。我认识的字不多，这次没有急着翻页。'),L('我','原来人们借着花说起家乡时，还记着这些具体的人。')),
+O('看看无名烈士纪念园，想想人们为何仍来这里',{dHistory:true,dMemoryEntry:'unnamed'},L('旁白','照片里有些名字没有留下，纪念却没有因此停下。'),L('映红','还不知道姓名，也仍值得认真记住。我们把这一页完整留在相册里。')),
+O('把山花页放在旁边，听她讲两页之间的联系',{dHistory:true,dMemoryEntry:'connection'},L('映红','红色的花让人想起这片土地的往事。文化里的联系，是后来的人不断讲起、记下的。'),L('旁白','我没有把两张照片混成同一个时刻，却开始懂得人们为什么把它们一起说。'))
+],'memory'),'ying','照片与历史记忆','这里使用当代纪念地照片。映山红的红色与革命记忆的联系见于地方文化叙述；风景照片不是历史事件现场影像，不据花色编造具体人物经历。','memory'),
+D04:N('D04','人们为什么停下来','monument','ying',[
+L('我','我以前想，得有个响亮的名字，别人才能记住。现在又觉得，只记住名字还不够。'),
+L('映红','有人从名字开始认识一个地方，再继续往下读。也有人先被花吸引。'),
+L('我','如果有人来看我的花，我想和他留下些什么呢？')
+],'我想先留下一样东西……',[
+O('一处自己真心喜欢的颜色和形状',{dGift:'beauty'},L('我','不是“最好看的花”，是我确实喜欢、想让他也看看的一处。'),L('映红','那我可要听仔细了。说不定你喜欢的那一处，我还没发现呢！')),
+O('一张能够认出巴中山水的照片',{dGift:'place'},L('旁白','我挑出能同时看见花、山和路的照片，想让读者知道花在哪里。'),L('映红','这张选得好，花和山路都在！下次再看到这段路，我想我也会认出来。')),
+O('一个值得他继续了解的城市故事',{dGift:'memory'},L('我','我不想一下讲完所有往事，只想让他愿意再问一句。'),L('映红','这个主意好！咱们挑一小段你最想说的，让下一位朋友也能接着问。'))
+],'memory'),
+D05:N('D05','相册先翻哪一页','flowerVisitors','ying',[
+L('旁白','旁边的幼芽听我说起市花，也想看相册。映红把照片移到它能看清的位置。'),
+E('映红','幼芽也想看啦！咱们试试？第一页听你的，我来帮忙翻。',1),
+L('我','我知道好几件想说的事了。只是第一次相遇，先说什么会不一样吧。')
+],'我请她先打开……',[
+O('花朵特写，先让读者看清有趣的花形',{dAlbum:'flower'},L('旁白','花口和斑点占满一页，旁边留了几枚小小的部位标记。'),L('我','我想让第一眼的喜欢，变成再靠近看一看的好奇。')),
+O('山花全景，先让读者认出花开在哪里',{dAlbum:'place'},L('旁白','山路连着花丛，映红把地点写在下方。远近的花一起留在画面里。'),L('我','我想先介绍花的家，再慢慢介绍住在这里的花。')),
+O('花与纪念地并排的一页，先说它们为何被记住',{dAlbum:'memory'},L('旁白','花页和纪念页分别标着地点，映红在中间留出一小块解释的位置。'),L('我','我想从人们在意的故事开始。花的模样，之后也能再看。'))
+]),
+D06:N('D06','第一位读者','flowerCamera','ying',[
+L('旁白','旁边的幼芽先看花朵特写，问：“红花很多，这朵有什么特别？”'),
+E('映红','我差点想说“因为它红得亮”。等等，我也喜欢很多别的红花呀。',1),
+E('映红','哎，这句我还真没想好。你愿意带它看一处吗？我帮你翻照片。',0)
+],'我想接住它的好奇，先……',[
+O('指出花口和斑点，请它试着描述一处',{dNext:'flower'},L('旁白','幼芽看着五裂花口，说它像一个连着的小喇叭。映红笑着往近处指。'),L('我','我们没有一次讲完很多事，却真的一起认清了一处。')),
+O('翻到山花全景，看看特写里的花和景观有何不同',{dNext:'place'},L('旁白','幼芽先找原来那一朵，后来发现远景里还有不同的花色和山路。'),L('映红','它还在找呢！那这两张都摊开，咱们陪它一起看看。')),
+O('问它听过市花吗，接上巴中与花的故事',{dNext:'memory'},L('旁白','幼芽说听过这个名字，却不知道为什么选它。我们从城市选花的时间讲起。'),L('我','原来它不是不感兴趣，只是需要从自己知道的地方接着听。'))
+]),
+D07:N('D07','映红也有没想好的时候','azalea2','ying',[
+L('我','刚才我以为你什么都答得出来。你停下来想，我反而没那么紧张了。'),
+E('映红','花的事我知道一些，可幼芽会先喜欢哪一页，我还真猜不准。刚才听它问，我自己也想再看看。',0),
+L('我','那我以后开花，也可以不一口气变得很厉害。')
+],'我想给自己的愿望添上一句……',[
+O('我想鲜亮地开，也愿意听听别人看见了什么',{dAnswer:'listen'},L('映红','我喜欢这个主意！到时候你说一处，我说一处，听听大家看见的是不是一样。'),L('旁白','我仍想被看见，不过相遇好像不再只是等一句夸奖。')),
+O('我想慢慢认识地方，不急着说完所有故事',{dAnswer:'learn'},L('旁白','我看了看相册里还夹着的几页，没有觉得必须今天全翻完。'),L('映红','好呀，那几个没弄明白的问题，咱们下次接着找！')),
+O('我想把自己的喜欢留下，等有人愿意一起看',{dAnswer:'own'},L('我','有人来会高兴，暂时没人来，我也可以先把喜欢的那一页看完。'),L('映红','那就把你喜欢的这页夹好！没人来时，我也常常自己翻着看呢。'))
+]),
+D08:N('D08','又一个新的问题','flowerVisitors','ying',[
+L('旁白','过了几天，旁边的幼芽又来看相册。它看完特写，问：“花的家在哪里？”'),
+L('我','我还想继续说花形，可它先问了一个我没准备好的问题。'),
+L('映红','这个问题来得真巧！你想从哪页接着聊？我帮你翻，原来喜欢的那张也留着。')
+],'我想怎样接着介绍？',[
+O('先把没看清的花形讲完，一起留一幅观察记录',{dClosing:'flower'},L('旁白','我们轮流描述花口，映红记下各自注意到的一处，约好以后再找真花看。'),L('我','这次我们把一件事看得很细。我也把“花的家”留在下一页的空白旁。')),
+O('把全景接在特写后，沿着山路找到花丛的位置',{dClosing:'place'},L('旁白','幼芽先找路，我再找花丛。原本只看一朵的我们，一起看完了一段山坡。'),L('我','多添一页，没有让前面的花变得不重要，反而让它有了住的地方。')),
+O('先问它还记得哪种家乡的花，再接上城市记忆',{dClosing:'memory'},L('旁白','幼芽说起那张两朵市花并排的照片，我们从熟悉的花名，接着讲到巴中的记忆。'),L('映红','原来它还记着这个呀！幸好问了，不然我差点又照自己的顺序往下讲了。'))
+]),
+D09:N('D09','向山而开','mountain6','ying',[
+L('旁白','日子一天天过去。童话里的花芽渐渐露出杜鹃的颜色，我仍记得幼芽问过的问题和翻过的照片。'),
+L('我','鲜亮的花能让人停下。停下以后，原来还有很多可以一起看的事。'),
+E('映红','快看，花芽又松开一点了！你想怎么迎接它？我已经有点等不及看啦。',0)
+],'我想留住这一刻……',[
+O('安静看自己展开，先把喜欢告诉自己',{dFinal:'quiet'},L('旁白','我没有马上找观众，只等第一处红色慢慢舒展。映红也放轻了动作。'),L('我','这是我自己的花。我想先好好认识它。')),
+O('请伙伴来看，听听大家各自看见了什么',{dFinal:'invite'},L('旁白','映红和幼芽凑近了一点，没有抢着替花下结论。'),L('我','我说出自己最喜欢的一处，也愿意听他们再说一处不同的。')),
+O('请映红记下一页，留给以后相遇的人',{dFinal:'record'},L('旁白','映红把日期留在页角，这次特意问我，最想写哪一句。'),L('我','写我在巴中长大，慢慢认识了花，也认识了许多想继续问的故事。'))
+]),
+L01:note(N('L01','从巴中走进兰展','orchidCulture','lan',[
+L('旁白','兰序翻到一张兰展照片。花旁站着一位正在介绍它的人。'),
+L('兰序','这是2024年成都杜甫草堂兰花展。傅华龙教授介绍，身边的春剑“玉海棠”来自巴中地区，后来经过精心培育。'),
+L('我','照片拍在成都，却能让人从这株花认识巴中。'),
+L('兰序','嗯。有人照料、观察，也有人愿意听。花的故事就在这样的相遇里继续。')
+],'我想顺着哪一点多看看？',[
+O('看看花与叶怎样被仔细养护',{lFlowerInterest:'grow'},L('旁白','我先看花序，再看伸开的长叶。花开的时候，前面的照料也留在它身上。'),L('兰序','你注意到了花后面的日子。喜欢一株花，也可以从了解这些开始。')),
+O('看看人怎样介绍它，怎样彼此交流',{lFlowerInterest:'people'},L('我','我想知道他说了什么，旁边的人又会问什么。'),L('兰序','有时一个问题，就会让介绍它的人也回头多看一眼。')),
+O('看看它和其他春剑有什么相同、不同',{lFlowerInterest:'form'},L('旁白','我把它与前面的花形照片比较，没有要求每一枚都长得一模一样。'),L('我','认得了共同的结构，差异反而更有意思了。'))
+],'botany'),'lan','花的来历与拍摄地','照片拍于成都；红星新闻2024年2月23日报道说明，图中的春剑“玉海棠”来自巴中地区。它是一个栽培品种，不是巴中市花指定的唯一品种或唯一花形。','botany'),
+L02:note(N('L02','王坪的战地兰香','hospital','lan',[
+L('旁白','下一页是通江县王坪红四方面军总医院旧址群的当代照片。院落里安静下来。'),
+L('兰序','巴中发布市花的报道，讲过医院里种兰的故事。'),
+L('兰序','张琴秋和女战士把兰花带到伤病员身边，也在医院周围栽种，让休养环境多一点清馨。'),
+L('我','那些日子里，人们还想着让养伤的地方舒服一些。')
+],'我先问……',[
+O('一株花能让养伤的人感觉有什么不同',{lHospital:true,lHistoryEntry:'comfort'},L('兰序','可能是抬头时多看见一点绿，也可能是屋里多了一点清馨。那是报道留下的照护记忆。'),L('我','不必很盛大的东西，也能让一个具体的人舒服一些。')),
+O('为什么选花时，还会想起这段往事',{lHospital:true,lHistoryEntry:'memory'},L('兰序','地方的兰花资源让人认识植物，这段故事又让人想到艰难日子里的关心。'),L('我','花形、家乡和生活，原来可以在一个名字里一起被提起。')),
+O('当人们回到今天的旧址，会想看什么',{lHospital:true,lHistoryEntry:'place'},L('旁白','我先认清院落的名字和位置，再想象今天的来访者怎样慢慢走近它。'),L('兰序','每个人先注意的地方会不同。相册把地点留下，也给继续了解的人留了一条路。'))
+],'hospital'),'lan','当代旧址与战地兰香','种兰故事见于市花发布报道。本作没有当年种兰的现场照片，不能确定历史上每株兰花的物种或栽培品种；此处展示的是医院旧址当代影像。','hospital'),
+L03:N('L03','一株花能做的事','orchid2','lan',[
+L('我','花不能替代药物，可这段兰香还是被记了下来。它能做的是什么呢？'),
+L('兰序','它让养伤的地方多一点舒适和安慰。药物、护理、休息，也都各有自己的作用。'),
+L('我','我以前总想着，得做一件很厉害的事，才值得开花。')
+],'这段故事让我想起……',[
+O('有人认真照顾一个小地方，日子就可能好过一点',{lCareThought:'small'},L('我','不一定一开始就改变很多。先让眼前的一刻舒服一些，也能认真做。'),L('兰序','嗯。你想到了具体的地方，也想到住在那里的人。')),
+O('能做到的有限，也可以和别的帮助一起存在',{lCareThought:'together'},L('旁白','我不再把一株花和医药放在同一场比较里。'),L('我','它不用证明自己最重要，才有留在屋里的理由。')),
+O('接受照顾的人，也许想被问问自己的感受',{lCareThought:'ask'},L('兰序','你想听见他怎么说。花香和安静，也不是每个人、每个时候都一样需要。'),L('我','如果轮到我关心谁，我想先认识他此刻的心情。'))
+],'hospital'),
+L04:N('L04','身边的幼芽','seed2','lan',[
+L('旁白','身旁的幼芽叫了我一声。兰序俯下身，看看它低垂的叶片，把相册收在身边。'),
+L('幼芽','我才长出来，有些累。你能在这里陪我一会儿吗？'),
+L('兰序','我在这里。你想怎么陪它？可以先问问它今天的感觉。')
+],'我想先做一点什么？',[
+O('看看根边的土，试着分一点接到的水',{lSupport:'water'},L('我','我问它要不要一点水。幼芽点头，等水慢慢渗下去，叶尖也松开了。'),L('旁白','我们没有再急着说话，只一起看那一点水落进土里。')),
+O('调整自己的叶片，让它有一小块舒服的光',{lSupport:'sun'},L('我','我问它这样亮不亮。幼芽试着抬头，让我再转一点，我就慢慢挪开。'),L('旁白','光落在它叶尖，也给我留下了自己的位置。')),
+O('停下手里的事，先听它说今天怎么了',{lSupport:'talk'},L('幼芽','我不是很难受，只是还不熟悉这里，想找谁说说话。'),L('我','那我先在这里听着。你想说雨，还是想听我今天认识的花？'))
+]),
+L05:note(N('L05','喜欢一株花以后','seed2','lan',[
+L('旁白','幼芽缓过来了。兰序把春剑的花序与长叶照片留在相册旁，我们还能继续看。'),
+L('我','我开始真心喜欢它了。喜欢之后，我想为它做点什么。'),
+L('兰序','想先做哪一件？照顾、认识，或者和别人分享，都可以慢慢来。')
+],'我想先试……',[
+O('记一页花形，留住自己看见的细节',{lAffection:'observe'},L('旁白','我说出萼片、花瓣和唇瓣的位置，兰序帮我画了几个小记号。'),L('我','这一页不只写着花名，也留着我怎样慢慢认出它。')),
+O('了解怎样栽培，看看自己能不能长期照料',{lAffection:'grow'},L('兰序','那就先了解合适的来源和养护条件，再想自己有没有时间与环境。'),L('我','我不急着拥有它，想先弄清楚，喜欢怎样变成日常的照料。')),
+O('把认识它的过程讲给幼芽听，听听它注意什么',{lAffection:'share'},L('旁白','幼芽先看见的是细长的叶。我说了半天花瓣，才发现我们从不同地方喜欢上它。'),L('兰序','它也给你添了一种看花的方法。下次你还可以问问别人。'))
+],'botany'),'lan','喜欢也尊重生长','山野观察以拍照和记录为先，避免随意采挖。栽培先了解正规来源与养护条件。此处比较的是观察、栽培准备与分享三种兴趣，不给个人偏爱分高低。','botany'),
+L06:N('L06','一起接水的日子','seed2','lan',[
+L('旁白','几天后，幼芽开始每天等我叶尖的水。我也愿意分给它，只是根边的水有时不太够。'),
+L('幼芽','我已经有力气了，今天能不能换我试着接一点？'),
+L('我','我习惯替它接，差点没注意到它也在长大。')
+],'我们怎样安排今天的水？',[
+O('先各自接一点，再说说还缺多少',{lPractice:'self'},L('旁白','我们各自试了试，幼芽接到一小滴，也笑着叫我看。'),L('我','它有自己的根，我也有自己的根。我们可以先顾好各自的生长。')),
+O('请旁边的叶片也来，把水引进大家都够得到的土',{lPractice:'together'},L('旁白','几片叶子慢慢错开，水不再只沿着我这一片走。'),L('我','我仍然能帮忙，不过这一点水开始由大家一起接住。')),
+O('先摸清今天的土有多湿，再问它还想要多少',{lPractice:'listen'},L('旁白','幼芽说今天只想试着自己接，不必再多。我们便给它留出空隙。'),L('我','昨天需要的，今天不一定照旧。我想记得再问一次。'))
+]),
+L07:N('L07','兰序也会猜错','seed3','lan',[
+L('旁白','兰序坐到一旁，准备把相册合上。她看看我，又轻声问了一句。'),
+L('兰序','我刚以为你想安静休息，可也许你还想说话。我拿不准，你现在更需要什么？'),
+E('我','原来你也不是一看就知道。我刚才正想请你，再听听我。',1),
+E('兰序','嗯，我听着。你慢慢说。',0)
+],'我想让她听见……',[
+O('我喜欢这次陪伴，也想给自己留一点安静',{lAnswer:'self'},L('我','这些天我很高兴，也有点累。等缓过来，我还想继续看花。'),L('兰序','好。相册先留着，我们不把喜欢的事赶在一天做完。')),
+O('我不只想学着照顾，也想接受一点照顾',{lAnswer:'together'},L('我','有时候我也想有人陪，想有人帮我看看还没懂的地方。'),L('旁白','兰序把相册重新放低，先听我把那个问题说完。')),
+O('我想多了解眼前的人，不总拿昨天的办法来猜',{lAnswer:'listen'},L('我','我可以先问，也可以告诉对方，自己有些地方还没弄懂。'),L('兰序','嗯，我也记着。有时我以为自己懂了，还是需要再听你说一遍。'))
+]),
+L08:N('L08','这次轮到我收下','seed2','lan',[
+L('旁白','又一场小雨后，幼芽接住了一滴水，把叶尖转向我。'),
+L('幼芽','以前都是你给我。今天这一点，你愿意收下吗？'),
+L('我','我第一反应还是想再分给谁，却忽然想起自己也有点渴。')
+],'我怎样回应这份关心？',[
+O('告诉它我正好需要，认真接下这一滴',{lReceiving:'self'},L('旁白','水顺着我的叶尖落进根边。我说了谢谢，也告诉它，这样很合适。'),L('我','承认自己需要，并没有让以前的照顾变少。')),
+O('和它一起看看周围，商量哪些水可以留、哪些能再分',{lReceiving:'together'},L('旁白','我们没有急着把这一点全送出去，而是先给各自留够，再请旁边的草叶一起看。'),L('我','被照顾以后，也能和它一起安排接下来的事。')),
+O('先问它自己的根够不够，也说清我确实有点渴',{lReceiving:'listen'},L('幼芽','够的。我先顾好自己，才想把这一滴给你。'),L('旁白','听完，我放心收下。询问不是拒绝，也能让关心落到合适的地方。'))
+]),
+L09:N('L09','为你，也为自己留香','orchid3','lan',[
+L('旁白','许多天后，童话里的花芽慢慢显出春剑的轮廓。我记得王坪的兰香，也记得身边这些相遇。'),
+L('我','开花不是一直让别人满意。我可以认真关心，也可以说出自己想要什么。'),
+L('兰序','这朵花将来怎样陪你生长，我们还可以继续看。')
+],'这一刻，我更想……',[
+O('先看清自己的花，安静地喜欢它一会儿',{lFinal:'quiet'},L('旁白','我没有马上把香气送往每个方向，先让花芽慢慢舒展。'),L('我','我想看清这朵自己长出来的花，再慢慢介绍给别人。')),
+O('请幼芽一起来，也说说今天各自的心情',{lFinal:'invite'},L('旁白','幼芽靠过来，没有只问花香不香，也问我现在累不累。'),L('我','有人这样问，我可以高兴地说想再看一会儿，也能放心地说想休息。')),
+O('留一页自己的花信，让后来的朋友知道这个故事',{lFinal:'record'},L('兰序','你最想写哪一件？'),L('我','写认识春剑，写王坪的兰香，也写我第一次愿意收下一点关心。'))
+]),
+H01:N('H01','两段经历都在这里','seed3','both',[
+L('旁白','新的生长里，我还记得两次开花：一次像杜鹃，一次像春剑。童话把这些记忆留在花芽里。'),
+L('我','我认得它们的花形，也记得巴中的山花和王坪的兰香。可这次，花芽有点不像她们。'),
+E('映红','真的呀？快让我瞧瞧！你喜欢哪一处，咱们就从那里看起。',1),
+L('兰序','也可以先说你的感受。我们都在这里。')
+],'我想从哪里认识这一次的自己？',[
+O('从花芽真实的形状开始，不急着套名字',{hStart:'form'},L('旁白','我描述轮廓和颜色，映红记得很快，又按我说的慢慢修了一笔。'),L('我','不一样的地方没有被擦掉。它们就是现在看得见的我。')),
+O('从这次想怎样和朋友相处开始',{hStart:'people'},L('我','我想仍然和幼芽看花，但也给彼此留出休息、说话的机会。'),L('兰序','这也是你自己的选择，不需要先开成某一种花才能开始。')),
+O('从自己此刻喜欢、期待的事情开始',{hStart:'self'},L('旁白','我说喜欢一点鲜亮，也喜欢安静的叶影，两个人都没有催我只选一个。'),L('我','原来我的喜欢可以一起留下，不必全装进一个现成的花名。'))
+]),
+H02:N('H02','不用先猜对一个名字','seed2','both',[
+L('旁白','我把花芽的样子说给幼芽听。它想了半天，问：“那你还算我们的朋友吗？”'),
+E('映红','咦，你是担心认不出它吗？我也好奇新花的样子，可一起看相册的朋友还是它呀。',1),
+L('兰序','也许它只是还不熟悉。你想怎么介绍自己？')
+],'我想先告诉它……',[
+O('我现在看得清的特点，也请它慢慢认识',{hLook:'form'},L('旁白','幼芽边听边找我说的地方，还发现了一个我没有注意到的小弯。'),L('我','我们没有猜对花名，却确实多认识了彼此一点。')),
+O('我们一起做过的事，还会接着发生',{hLook:'people'},L('我','还是可以一起接水、看相册。你也可以告诉我，今天又想看什么。'),L('旁白','幼芽松开叶尖，终于又靠过来一点。')),
+O('我还是会有点紧张，也很期待这朵花',{hLook:'self'},L('幼芽','你也会紧张？我以为已经开过花，就不会了。'),L('我','这次不一样，我也要重新学。但我想请你一起等。'))
+]),
+H03:note(N('H03','相册里的两种花','mountain2','both',[
+L('旁白','映红和兰序在相册两旁坐下。幼芽请她们翻到双市花那一页，问我这次想怎样介绍。'),
+L('我','我没有再从“哪一种更好”讲起。它们各自连着巴中的植物、景观和城市记忆。'),
+L('映红','轮到你给咱们翻相册啦！我和兰序坐这儿听，有新发现就告诉你。')
+],'我先给它看……',[
+O('两种花的实物图，请它找一处自己最在意的区别',{hCity:'form'},L('旁白','它先看见长叶，我才指到萼片和唇瓣。我们从它看得懂的地方接着讲。'),L('我','这次我不只是把记住的知识说一遍，也在听它怎样认识花。')),
+O('山花与王坪的相片，讲人们为什么记着它们',{hCity:'people'},L('旁白','我分别讲山里的相遇、纪念与照护，没有要求一个故事说完一座城。'),L('兰序','你给幼芽留了继续问的地方。我也想听它接下来问什么。')),
+O('我自己最喜欢的一页，告诉它喜欢从哪里来',{hCity:'self'},L('我','我说刚认花时很着急，后来因为一次次相遇，才懂得多看一会儿。'),L('旁白','两位化身听着，没有替我的经历换成她们的答案。'))
+],'city'),'lan','代表性不是排名','巴中同时选用杜鹃与兰花作为市花，是公开发布的事实。自然资源、地方景观与历史记忆的不同线索，可以帮助理解双花代表性；它不为所有花划分高低。','city'),
+H04:N('H04','今天的小地方','seed2','both',[
+L('旁白','相册合上。我还在最初发芽的地方，幼芽高了一点，旁边的石缝也添了新叶。'),
+L('我','没有换到很大的舞台，今天还是这样一个小地方。可我已经想做点自己的事了。'),
+L('兰序','想先做什么？我们陪你安排今天，不急着替以后全部决定。')
+],'我想把今天留给……',[
+O('再看一次自己的花芽，补上没记清的细节',{hAction:'form'},L('旁白','我发现轮廓又松开了一点，便请映红在昨天旁边留出今天的一小格。'),L('我','这是只有我能慢慢经历的生长，我想认真看完。')),
+O('和幼芽交换一个故事，问问它今天过得怎样',{hAction:'people'},L('旁白','它先说自己的新叶，我再说将开的花。谁也没有只做听的人。'),L('我','地方还是很小，今天却多了一次双方都愿意的交谈。')),
+O('给自己留一点水和安静，等想说话时再叫大家',{hAction:'self'},L('我','我现在挺高兴，也想独自待一小会儿，不是要和朋友告别。'),L('旁白','她们把相册放在我够得着的位置，让这一刻安静地过去。'))
+]),
+H05:N('H05','还没有称号的花','seed','both',[
+L('我','我仍然想让人认识。但就算这朵花没有市花的称号，也不用先把它藏起来。'),
+E('映红','我倒是越来越想看见它了！你喜欢哪儿，就说给我们听听，我也想多认识一点。',0),
+L('兰序','等明天有了新发现，再告诉我们也好。今天喜欢的这些，我都听见了。')
+],'我想给将来的自己留一句……',[
+O('先看清真实的生长，再慢慢替它找到名字',{hMeaning:'form'},L('旁白','我把还不知道的部分留白，旁边也记着已经看清的细节。'),L('我','不需要赶快像谁，才算生长得对。')),
+O('想相遇就靠近，也愿意听见彼此不一样的地方',{hMeaning:'people'},L('我','不必每次都被夸奖，也不必每次都能帮忙。见面时，仍可以认真看见对方。'),L('旁白','幼芽听见后碰了碰我，好像先替下一次相遇答应了一声。')),
+O('记得自己的喜欢和需要，允许它们慢慢变化',{hMeaning:'self'},L('我','我可以鲜亮，也可以安静；可以帮忙，也可以先说今天有点累。'),L('兰序','这些都是你在经历的日子，不是必须藏起来的例外。'))
+]),
+H06:N('H06','自己的模样','seed3','both',[
+L('旁白','花芽终于打开，露出不属于杜鹃、也不属于春剑的轮廓。'),
+L('我','我没有忘记两种市花。她们的故事在这里，我自己的花也在这里。'),
+E('映红','哇，这一处我从前真没见过！这回我不抢着猜名字了，你给我们介绍介绍？',1),
+L('兰序','你想怎样迎接它？这次我们听你的。')
+],'我想这样度过花开的时刻……',[
+O('先安静看一会儿，再慢慢向伙伴介绍',{hFinal:'quiet'},L('旁白','我先认清自己最喜欢的那一处，再说给等在旁边的人听。'),L('我','没有借来一个熟悉的名字，这朵花也真真切切开在这里。')),
+O('请大家一起看，听听他们发现了什么',{hFinal:'invite'},L('旁白','每个人看见的细节都有一点不同，我也把自己的发现认真说完。'),L('我','花开没有给我换来同一个答案，却带来了新的相遇。')),
+O('把今天记成新一页，留着以后继续往下写',{hFinal:'record'},L('旁白','映红留出日期，兰序帮我把前面的几页理好，新的一页仍有空白。'),L('我','写下我在这里开过花，认识过她们，也还想继续认识自己。'))
+])
+});
+STORY.C02.lines.forEach((line,i)=>line.actor=i===0?'ying':'both');
+STORY.C03.specimen='azalea';
+STORY.C04.specimen='orchid';
+STORY.L05.photoPanel='orchidPlant';
+STORY.L01.tips.sourceUrl='https://static.cdsb.com/micropub/Articles/202402/07f9bc25a8091db9f127f5b59b219408.html';
+
+/* 花形、山地、记忆三种相册入口，带来三种完整的读者事件。
+ * D06/D08 的条件只依赖 D05 的 dAlbum，后续选择不修改 dAlbum。
+ */
+const d06flower={key:'d06-flower',when:{dAlbum:'flower'},lines:STORY.D06.lines,question:STORY.D06.question,choices:STORY.D06.choices,bg:'flowerCamera'};
+const d06place={key:'d06-place',when:{dAlbum:'place'},bg:'flowerVisitors',lines:[
+L('旁白','幼芽先注意到全景里的山路：“人们都是沿着它，才走近这些花的吗？”'),
+E('映红','我也想顺着这条路找！哎，这儿还有个岔口，我刚才差点看漏了。',1),
+E('映红','看来我也得再瞧瞧。你想和幼芽先看哪一页？咱们一起找。',0)
+],question:'我们已经认出了地方，接下来想一起看……',choices:[
+O('从山色里挑一处花，再翻特写慢慢辨认',{dNext:'flower'},L('旁白','幼芽指出花丛的位置，我请映红翻近景，才看出花口和枝叶各有差别。'),L('我','我们先找到了花的家，也能接着仔细认识住在这里的花。')),
+O('顺着照片找山路，请映红把地点补在旁边',{dNext:'place'},L('旁白','我们从转弯的路找到停步的地方，映红又翻出同篇报道里的另一张，补上位置。'),L('我','这一页的路变得更清楚，也留着以后继续看花的位置。')),
+O('问它还记得哪些市花，再聊巴中为什么选杜鹃',{dNext:'memory'},L('旁白','它先说出了花名，我们再从山里的杜鹃，讲到地方景观和红色记忆。'),L('我','认识了住的地方，也可以继续认识人们为什么惦记这些花。'))
+]};
+const d06memory={key:'d06-memory',when:{dAlbum:'memory'},bg:'memorial',lines:[
+L('旁白','幼芽看着纪念页，听了一会儿，又问：“故事我听见了，花到底长什么样？”'),
+E('映红','哎呀，我光顾着讲故事，它还没看清花呢。咱们把前面那张也翻出来，好不好？',2),
+E('映红','你想从哪儿说起？我帮你翻。这次咱们跟着它的问题走。',3)
+],question:'我想怎样让它也跟上这一页？',choices:[
+O('先给它看花形，找到红色之外的一处特点',{dNext:'flower'},L('旁白','它先认出花口里的小斑点，回到纪念页时，也知道我们说的是怎样的花了。'),L('我','重新翻回前面没有打断相遇，反而让它有了继续听的起点。')),
+O('先在相册里认出山地和纪念地，分别说清位置',{dNext:'place'},L('旁白','我把山花与纪念地分开介绍，幼芽才知道两张图不是同一个地方、同一个时刻。'),L('我','它认清地方以后，再听人们怎样把花与家乡往事联系起来。')),
+O('先问它记得哪件事，再从那里接上市花故事',{dNext:'memory'},L('旁白','幼芽说记得“有人把兰花带到医院”，我们便从两种市花各自连接的往事讲起。'),L('映红','它记着这一段呀！那咱们就从这里接着聊，我也想知道它为什么记得。'))
+]};
+STORY.D06.variants=[d06flower,d06place,d06memory];
+const d08flower={key:'d08-flower',when:{dAlbum:'flower'},lines:STORY.D08.lines,question:STORY.D08.question,choices:STORY.D08.choices,bg:'flowerVisitors'};
+const d08place={key:'d08-place',when:{dAlbum:'place'},bg:'mountain5',lines:[
+L('旁白','过了几天，幼芽在相册里挑中一张花开得稀一些的山地照片。'),
+L('我','我差点说“不够热闹”。可它想多看看那一段路，请映红把这一页留着。'),
+L('映红','这回轮到它挑照片了！你瞧瞧，它喜欢的地方，跟咱们是不是不一样？')
+],question:'面对花不那么显眼的山坡，我想……',choices:[
+O('从少量花里找近景，把容易错过的细节留下',{dClosing:'flower'},L('旁白','我们没有把花少的一页丢掉，而是再找同组近景，慢慢补成观察记录。'),L('我','热闹和细看是两种看法。这一页先留给愿意凑近的人。')),
+O('把山路和季节并排，留住不同时间的地方',{dClosing:'place'},L('旁白','我们把照片依季节排开，路一直在，花色却有了前后变化。'),L('我','原来认识家乡，不必只记最盛大的那一刻。')),
+O('请它说说为什么喜欢，再添一段地方记忆',{dClosing:'memory'},L('旁白','它想起最早见到的市花照片。我认真听完，也把后来认识的城市故事接在旁边。'),L('映红','这条山路它看了好久呢。咱们把花也放在旁边，说不定还能听到它的新发现。'))
+]};
+const d08memory={key:'d08-memory',when:{dAlbum:'memory'},bg:'flowerCamera',lines:[
+L('旁白','幼芽问：“等你开花，我也能把这些故事讲给旁边的草叶听吗？”'),
+L('我','我想先把相册准备得很完整，又怕下次仍然有答不完的问题。'),
+L('映红','我也有好多没弄明白的呀。相册还空着几页呢，下次它问了，咱们再一起找！')
+],question:'我想为下一次相遇先留出……',choices:[
+O('一个观察花的空白格，请它描述看见的特点',{dClosing:'flower'},L('旁白','花形页不再只有我和映红的记号，也给幼芽留了自己的位置。'),L('我','这次先把花看清，以后想问城市的故事，我们再接着翻。')),
+O('一页能够辨认山与花的地点，介绍它们住的地方',{dClosing:'place'},L('旁白','我们把地点与相片理好，想让这里长大的草叶，也能跟着认一认家乡的山。'),L('我','它们也许会先注意到一处我们没看过的角度，那时就再添一点。')),
+O('一段短短的地方故事，留一个愿意继续问的问题',{dClosing:'memory'},L('旁白','我没有把整册重说一遍，只留下人们为什么愿意记着这两种花的线索。'),L('映红','就留这小小一段吧。我都有点好奇，下次它又会先问哪一句了。'))
+]};
+STORY.D08.variants=[d08flower,d08place,d08memory];
+
+/* 水、光与交谈不是高低不同的关心。L04 的选择改变后续实际情景。
+ * L06/L08 只读此前的 lSupport，选择写入 lPractice/lReceiving。
+ */
+const l06water={key:'l06-water',when:{lSupport:'water'},lines:STORY.L06.lines,question:STORY.L06.question,choices:STORY.L06.choices,bg:'seed2'};
+const l06sun={key:'l06-sun',title:'一起调整叶影',when:{lSupport:'sun'},bg:'seed3',lines:[
+L('旁白','前些天我给幼芽让出阳光，今天太阳更强，叶影却移到了另一边。它请我陪着试试位置。'),
+L('幼芽','我想遮一点，也想自己转转叶子。你不用一直替我固定住。'),
+L('我','原来上次合适的位置，今天也要重新安排。')
+],question:'我们怎样重新安排这片叶影？',choices:[
+O('各自找一处舒服的位置，再告诉对方哪里需要空隙',{lPractice:'self'},L('旁白','我们先转好自己的叶片，再一点点对照，都没有完全挤到另一边去。'),L('我','我可以先说清自己要多少光，也听它说自己的位置。')),
+O('请周围的草叶一起试，让光和叶影分得更合适',{lPractice:'together'},L('旁白','几片叶子慢慢错开，有的地方亮一些，有的能歇一会儿，谁也不必一直替谁挡住。'),L('我','一个人挪不好的位置，有时可以请大家一起试。')),
+O('先问它想遮多久，再陪它试一个能自己调整的位置',{lPractice:'listen'},L('旁白','幼芽说想歇一会儿，等太阳偏过去，再自己转开。我照它的意思留出一点空隙。'),L('我','我不必把今天变成永远合适，只要听清现在的需要。'))
+]};
+const l06talk={key:'l06-talk',title:'说话，也能停一停',when:{lSupport:'talk'},bg:'seed3',lines:[
+L('旁白','幼芽越来越愿意说话，常在我想安静时叫我。今天它说到一半，我的叶尖已经有点软了。'),
+L('幼芽','你是不是累了？我还想讲下去，不过也想知道你现在怎样。'),
+L('我','原来它也在留意我。我可以不只做那个听的人。')
+],question:'这次的交谈，我想怎样安排？',choices:[
+O('说清我想歇一会儿，约好下次接着听',{lPractice:'self'},L('旁白','我说出自己需要多少时间，幼芽把还没讲完的一件事记着，没有把停顿当成告别。'),L('我','我认真听过，也可以放心停下。')),
+O('邀旁边的伙伴一起听，让故事也多几个回应',{lPractice:'together'},L('旁白','幼芽问过大家愿不愿意，再从最想分享的一件事讲起。我可以歇着，也能偶尔补一句。'),L('我','这段交谈没有因为我不独自撑着，就突然断掉。')),
+O('先问它最想被听见哪一件，也告诉它我有点累',{lPractice:'listen'},L('旁白','它说最想讲的是刚长出的新叶。我们把这件事说完，便一起停一会儿。'),L('我','问清楚以后，不必把所有话都赶在这一次说完。'))
+]};
+STORY.L06.variants=[l06water,l06sun,l06talk];
+const l08water={key:'l08-water',when:{lSupport:'water'},lines:STORY.L08.lines,question:STORY.L08.question,choices:STORY.L08.choices,bg:'seed2'};
+const l08sun={key:'l08-sun',title:'给我留一片叶影',when:{lSupport:'sun'},bg:'seed3',lines:[
+L('旁白','午后的光又移了位置。这次我叶尖发热，幼芽先挪过来一点，给我留出一片凉些的叶影。'),
+L('幼芽','上次我们一起试过，我记着呢。现在这样，你舒服些吗？'),
+L('我','我没有立刻说“不用”，先感觉了一下自己真正想站在哪里。')
+],question:'面对它主动留出的叶影，我会……',choices:[
+O('告诉它这样正合适，让自己安心歇一会儿',{lReceiving:'self'},L('旁白','我把需要遮的地方说清，没有连同自己的感受一起藏起来。'),L('我','我也可以是那个被照顾的朋友。')),
+O('和它轮换位置，让两株都留到需要的光与凉意',{lReceiving:'together'},L('旁白','我们慢慢试出一个能轮换的办法，不要求谁一直停在同一个地方。'),L('我','以前那次让光没有变成谁欠谁，今天仍然能一起商量。')),
+O('说说自己还热在哪儿，也问它有没有晒得太少',{lReceiving:'listen'},L('旁白','幼芽说它正好想等一会儿，我们便先这样待着，等谁不舒服再开口。'),L('我','关心可以边经历边调整，不必一开始就猜得完全正确。'))
+]};
+const l08talk={key:'l08-talk',title:'这次听我说',when:{lSupport:'talk'},bg:'seed2',lines:[
+L('旁白','今天幼芽没有先讲自己的新叶，而是问我：“你最近在期待什么？”'),
+L('我','我说惯了“我听着”，忽然轮到自己，一时还不知道从哪儿开口。'),
+L('幼芽','不用一下讲完。我也想慢慢认识你。')
+],question:'我想把自己的哪一面说给它听？',choices:[
+O('我喜欢的花和眼前的心情，不先猜它想听什么',{lReceiving:'self'},L('旁白','我从自己的喜欢说起，才发现平时这些话总被我放在最后。'),L('我','这次我也说了很久，没有因为被听见就觉得不好意思。')),
+O('请它一起翻相册，交换各自最喜欢的一页',{lReceiving:'together'},L('旁白','我挑出自己的那页，它也挑了一页。相同的地方让我们笑，不同的地方又引出新问题。'),L('我','原来陪伴可以轮流，也可以一起发现。')),
+O('先说我有点不熟练，再请它问一个真的好奇的问题',{lReceiving:'listen'},L('幼芽','那你最初为什么总想着要有一个名字？'),L('旁白','我想了想，慢慢把刚发芽时的心情说完。它等着，没有替我急着回答。'))
+]};
+STORY.L08.variants=[l08water,l08sun,l08talk];
+
+STORY.D02.recalls=[{if:'formD',line:L('我','我还记得花口连在一起的样子，现在想看它们怎样开在不同地方。')},{if:'spotsD',line:L('我','特写里的小斑点我认得了。远景里还有很多看不清的花，值得以后再看。')}];
+STORY.D04.recalls=[{if:'dHistory',line:L('我','刚才那一页，我没有急着翻过去。想到被记住，也不只想到自己的名字了。')}];
+STORY.L05.recalls=[{if:'lHospital',line:L('我','医院里的兰香让我想到，一株花怎样被放进人的日常里。')}];
+
+Object.assign(ENDINGS.Dgood,{name:'向山而开',bg:'mountain5',text:'我开成了杜鹃。我仍喜欢鲜亮的颜色，也慢慢学会让目光从一朵花走向山地、走向这座城的记忆。相册里，读者的提问和我自己的喜欢都有位置。开花可以是相遇的开始；没有人停下的时候，我也在认真经历自己的生长。'});
+Object.assign(ENDINGS.Dgrow,{name:'仍在生长',bg:'azalea2',text:'我开成了杜鹃。这一次，我把自己最先喜欢的那一面看得很细，也遇到了想看别处的读者。我还没把这些不同的目光都接起来，映红便替相册多留了一页。偏爱不会因此作废；下次，我想带着自己的喜欢，再去认识花和巴中的另一面。'});
+Object.assign(ENDINGS.Lgood,{text:'我开成了春剑。三枚外萼片慢慢展开，我记得王坪的战地兰香，也记得身边的幼芽怎样长大。我能关心别人，能接受照顾，也愿意再问问今天有什么不同。开花不必包办一切，它让我和别人有了联系，也没有把自己的需要落下。'});
+Object.assign(ENDINGS.Lgrow,{text:'我开成了春剑。这些天，我认真练习了一种自己安心的陪伴方式，也渐渐发现，同一个办法有时还装不下新的需要。兰序没有催我立刻周全。花已经开了，我还可以慢慢试：说说自己，请人一起，也听听对方今天想要什么。'});
+Object.assign(ENDINGS.Hgood,{text:'花开了，形状不像杜鹃，也不像春剑。我记得它们真实的花形、巴中的山花与王坪的兰香，也记得自己的喜欢和遇见的人。那些经历没有替我规定唯一的模样。我可以认真认识真实的生长，与别人相遇，也给自己留下位置；这朵花，便从这里继续往下长。'});
+Object.assign(ENDINGS.Hgrow,{name:'未命名的春天',text:'花芽露出了自己的轮廓。这一次，我先认清其中一部分，另一些感受还等着以后慢慢说。两位化身和幼芽都没有离开，相册里也还有空白。没有称号不妨碍生长，没有立刻把一切融会贯通，也不妨碍下一次重新认识自己。'});
+
+// 结局看多次经历是否互补；任何单个偏好与最后的仪式选择都不判坏。
+// D：相册入口→第一次读者回应→后续回应，至少经历两种角度。
+// L：陪伴安排→表达自己→接受关心，至少尝试两种相处方式。
+// H：五次自我认识里，花形、关系与自己三方面都曾真正进入生活。
+endingFor=function(r){
+ const f=r.flags||{};
+ const breadth=keys=>new Set(keys.map(k=>f[k]).filter(Boolean)).size;
+ if(r.route==='D')return f.dHistory&&f.dAlbum&&f.dNext&&f.dClosing&&breadth(['dAlbum','dNext','dClosing'])>=2?'Dgood':'Dgrow';
+ if(r.route==='L')return f.lHospital&&f.lPractice&&f.lAnswer&&f.lReceiving&&breadth(['lPractice','lAnswer','lReceiving'])>=2?'Lgood':'Lgrow';
+ return breadth(['hStart','hLook','hCity','hAction','hMeaning'])>=3?'Hgood':'Hgrow';
+};
+})();
+
+
+</script><script>/* 解析此前选择留下的经历；读取节点不计分，不改变故事或存档。 */
+const STORY_REVISION=4;
+function resolveStoryNode(id,r){
+ const base=STORY[id];
+ if(!base)throw new Error('没有找到故事节点：'+id);
+ const flags=r?.flags||{};
+ const branch=base.variants?.find(v=>Object.entries(v.when||{}).every(([key,value])=>flags[key]===value));
+ return branch?{...base,...branch,id:base.id,variantKey:branch.key}:{...base,variantKey:'base'};
+}
+</script><script>/* 姿态按台词含义选取，不轮播；保留旧四式，再加四种有不同重心的新姿态。 */
+const ACTING_POSES={
+ ying:{
+  intro:{asset:'yingPoseV2',rect:[0,0,512,922],label:'轻触胸前，自然站立介绍自己'},
+  turn:{asset:'yingPoseV2',rect:[512,0,512,930],label:'侧身迈步，向身旁展示'},
+  listen:{asset:'yingPoseV2',rect:[0,922,512,614],label:'俯身查看草籽的叶片'},
+  rest:{asset:'yingPoseV2',rect:[512,930,512,606],label:'侧坐下来，轻松交谈'},
+  greet:{asset:'yingSheet',frame:0,label:'笑着招呼'},
+  surprise:{asset:'yingSheet',frame:1,label:'发现新事物，惊喜停顿'},
+  think:{asset:'yingSheet',frame:2,label:'托腮思考，认真倾听'},
+  encourage:{asset:'yingSheet',frame:3,label:'伸手邀请，一起看看'}
+ },
+ lan:{
+  intro:{asset:'lanPoseV2',rect:[0,0,512,900],label:'抱着相册，自然站立介绍自己'},
+  book:{asset:'lanPoseV2',rect:[512,0,512,928],label:'翻开相册，指向书页'},
+  listen:{asset:'lanPoseV2',rect:[0,900,512,636],label:'俯身查看幼芽低垂的叶片'},
+  rest:{asset:'lanPoseV2',rect:[512,928,512,608],label:'把相册放在膝上，安静坐谈'},
+  calm:{asset:'lanSheet',frame:0,label:'轻抱相册，安静回应'},
+  warm:{asset:'lanSheet',frame:1,label:'温柔地笑着'},
+  think:{asset:'lanSheet',frame:2,label:'轻扶下颌，认真思量'},
+  explain:{asset:'lanSheet',frame:3,label:'轻抬手掌，讲述说明'}
+ }
+};
+const ACTING_SCENES={
+ C01:{ying:'intro',lan:'intro'},C02:{ying:'intro',lan:'intro'},C03:{ying:'encourage',lan:'calm'},C04:{ying:'intro',lan:'book'},C05:{ying:'turn',lan:'explain'},C06:{ying:'intro',lan:'explain'},
+ D01:{ying:'encourage'},D02:{ying:'greet'},D03:{ying:'think'},D04:{ying:'think'},D05:{ying:'encourage'},D06:{ying:'think'},D07:{ying:'greet'},D08:{ying:'think'},D09:{ying:'intro'},
+ L01:{lan:'book'},L02:{lan:'think'},L03:{lan:'explain'},L04:{lan:'listen'},L05:{lan:'book'},L06:{lan:'calm'},L07:{lan:'rest'},L08:{lan:'calm'},L09:{lan:'warm'},
+ H01:{ying:'greet',lan:'intro'},H02:{ying:'surprise',lan:'calm'},H03:{ying:'rest',lan:'rest'},H04:{ying:'rest',lan:'rest'},H05:{ying:'rest',lan:'rest'},H06:{ying:'rest',lan:'rest'}
+};
+function actingFor(n,line,pending=false){
+ // 选项不是新的动作事件：从最后一句台词重建姿态，读档到选项页也保持一致。
+ if(pending)line=linesFor().at(-1)||line;
+ const pose={ying:'intro',lan:'intro',...(ACTING_SCENES[n.id]||{}),...(line?.acting||{})};
+ if(n.id==='C02'&&run.phase==='intro'){
+  const sequence=[{ying:'intro',lan:'intro'},{ying:'intro',lan:'intro'},{ying:'think',lan:'calm'},{ying:'think',lan:'book'},{ying:'turn',lan:'book'}];
+  Object.assign(pose,sequence[Math.min(run.index,sequence.length-1)]||{});
+ }
+ if(n.id==='C02'&&run.phase==='post'){
+  if(line?.who==='映红')pose.ying=run.picks.at(-1)?.choice===2?'turn':'intro';
+  if(line?.who==='兰序')pose.lan='calm';
+  if(line?.who==='旁白')pose.ying='encourage';
+ }
+ // 只有实际俯身查看叶片、记录生长时使用低身姿态，并保持到这段对话结束。
+ if(n.id==='D02'&&run.phase==='post'&&run.picks.at(-1)?.choice===0)pose.ying='listen';
+ if(n.id==='D06'&&line?.who==='映红'&&/你想|你愿意|帮你翻|咱们跟着/.test(line.text))pose.ying='encourage';
+ if(n.id==='D09'&&run.phase==='post'&&run.picks.at(-1)?.choice===1)pose.ying='greet';
+ // 侧身手势向画面右侧，留给双人同屏时站在左边的映红使用。
+ if(pose.ying==='turn'&&n.actor!=='both')pose.ying='encourage';
+ return pose;
+}
+function paintActorPose(el,key,name){
+ const p=ACTING_POSES[key][name]||ACTING_POSES[key].intro;
+ const signature=key+':'+name;
+ el.dataset.character=key;el.dataset.pose=name;
+ el.dataset.expression=String(p.frame??0);
+ el.setAttribute('aria-label',(key==='ying'?'映红':'兰序')+' · '+p.label);
+ if(el.dataset.renderedPose===signature)return;
+ el.dataset.renderedPose=signature;
+ // 旧图集左列裙摆略越过格线，右下格取景时让开这条边缘，人物本身不受影响。
+ el.style.clipPath=key==='lan'&&name==='explain'?'inset(0 0 0 2.5%)':'none';
+ if(p.rect){
+  const[x,y,w,h]=p.rect,offset=924-h;
+  el.style.backgroundImage='none';
+  // 原图原样保留；用各姿态的实际边界取景，避免等分图集时切掉站姿的鞋子。
+  el.innerHTML=`<svg class="pose-frame" viewBox="0 0 616 924" aria-hidden="true" focusable="false"><svg x="52" y="${offset}" width="512" height="${h}" viewBox="${x} ${y} ${w} ${h}" overflow="hidden"><image href="${ASSETS[p.asset]}" width="1024" height="1536"/></svg></svg>`;
+ }else{
+  el.innerHTML='';el.style.backgroundImage='url("'+ASSETS[p.asset]+'")';
+  el.style.backgroundPosition=(p.frame%2*100)+'% '+(Math.floor(p.frame/2)*100)+'%';
+ }
+}
+</script><script>/*
+ * 照片呈现建议。纯数据与纯函数：不访问 DOM、不改 STORY、不改原图。
+ * 在 culture_story.js 之后、app.js 之前加载。
+ * 调用时传入已经选定 variant 的节点与 presentationFor 得到的 baseBg。
+ */
+const PHOTO_POLISH_PANELS = Object.freeze({
+  orchidCulture: Object.freeze({
+    key: 'orchidCulture', photo: 'orchidCulture', ratio: 1702 / 1276,
+    title: '来自巴中的春剑，在成都被介绍',
+    caption: '2024年成都杜甫草堂兰展，傅华龙与春剑“玉海棠”。报道说明该品种来自巴中；照片不是巴中本地兰展。',
+    fit: 'contain', position: '50% 50%', parts: Object.freeze([])
+  }),
+  orchidPlant: Object.freeze({
+    key: 'orchidPlant', photo: 'orchid', ratio: 528 / 960,
+    title: '看看春剑的花序与长叶',
+    caption: '异地栽培摄影，用于观察花序与长叶。照片不代表巴中野外，也不代表春剑只有这一种花色。',
+    fit: 'contain', position: '50% 50%', parts: Object.freeze([])
+  }),
+  hospitalRecord: Object.freeze({
+    key: 'hospitalRecord', photo: 'hospital', ratio: 800 / 472,
+    title: '王坪红四方面军总医院旧址群',
+    caption: '通江县政府发布的当代旧址照片。它说明地点与保存面貌，不是当年种兰的现场影像。',
+    fit: 'contain', position: '50% 50%', parts: Object.freeze([])
+  })
+});
+
+/* 特殊照片保持长宽比。其余已是横向环境照，沿用 cover。 */
+const PHOTO_POLISH_PROFILES = Object.freeze({
+  orchid: Object.freeze({ fit: 'contain', position: '27% 50%', treatment: 'natural',
+    reason: '528×960的竖构图不再横向铺满；完整显示花序，空余部分沿用舞台深绿色底。' }),
+  orchid2: Object.freeze({ fit: 'contain', position: '24% 48%', treatment: 'natural',
+    reason: '1306×980近景保留完整花口，避免16:9裁切把萼片和唇瓣过度放大。' }),
+  orchid3: Object.freeze({ fit: 'contain', position: '22% 48%', treatment: 'natural',
+    reason: '黑底单花照片保持正方形与整体轮廓，不裁成长条或把花蕊当成整幅环境。' }),
+  orchidCulture: Object.freeze({ fit: 'contain', position: '22% 46%', treatment: 'natural',
+    reason: '保留傅华龙、展名、盆栽的共同语境，不把真实人物或植株裁掉。' }),
+  flowerWalk: Object.freeze({ fit: 'contain', position: '28% 47%', treatment: 'natural',
+    reason: '888×1200的栈道纵向构图完整显示，留出右边人物位置，保留上下赏花路线。' }),
+  monument: Object.freeze({ fit: 'contain', position: '29% 46%', treatment: 'natural',
+    reason: '426×526的纪念碑照片不横向裁切，碑题和碑形保持完整。' }),
+  azalea: Object.freeze({ fit: 'contain', position: '24% 48%', treatment: 'soft',
+    reason: '577像素宽的花朵照片若偶用于舞台，只作轻柔氛围；辨认以未虚化的资料卡为准。' }),
+  azalea2: Object.freeze({ fit: 'contain', position: '24% 48%', treatment: 'soft',
+    reason: '低分辨率花丛不强作高清横屏实景，保留原比例并轻柔处理。' }),
+  hospital: Object.freeze({ fit: 'cover', position: '47% 39%', treatment: 'natural',
+    reason: '保留院落、屋顶与道路的整体关系；这张是当代王坪旧址全景。' }),
+  cityOrchid: Object.freeze({ fit: 'contain', position: '50% 40%', treatment: 'natural',
+    reason: '官方发布图为宽幅兰花配图，保持两侧花序，不把未逐图鉴定的兰花当形态证据。' }),
+  flowerVisitors: Object.freeze({ fit: 'cover', position: '45% 40%', treatment: 'natural',
+    reason: '前景杜鹃、山脊与左侧游客同框，兼顾花和当代赏花生活。' }),
+  flowerCamera: Object.freeze({ fit: 'cover', position: '43% 42%', treatment: 'natural',
+    reason: '保留栈道拍花的人和前景花丛，画面不只剩摄影者。' }),
+  flowerRecord: Object.freeze({ fit: 'cover', position: '40% 40%', treatment: 'natural',
+    reason: '这是摄影活动近景，适合讲观看和记录；不能代替花形特写。' }),
+  seed2: Object.freeze({ fit: 'cover', position: '50% 62%', treatment: 'natural',
+    reason: '较清楚的幼草与土壤摄影，回到扎根处的现时事件；仅作生长示意，非巴中实拍。' }),
+  seed3: Object.freeze({ fit: 'cover', position: '50% 58%', treatment: 'natural',
+    reason: '高分辨率幼草摄影为相册交谈留出空间；它是生长示意，不作巴中特定地点的证据。' })
+});
+
+/*
+ * 仅替换原场景的默认背景。from 是文化稿的 n.bg，base 是旧版
+ * presentationFor 可能已覆盖过的 bg；任一不匹配都视为有意选定的新背景。
+ * L06/L08 的重写变体已经回到 seed2/seed3，本模块不按 id 强行盖回医院或兰花。
+ */
+const PHOTO_POLISH_SCENES = Object.freeze({
+  C04: Object.freeze({ from: Object.freeze(['orchid3']), base: Object.freeze(['orchid3', 'orchid2']),
+    bg: 'seed2', position: '50% 62%',
+    reason: '花形课在相册里发生：主背景回到草籽扎根处，准确的春剑照片留在部位导览卡中。' }),
+  L01: Object.freeze({ from: Object.freeze(['orchidCulture']), base: Object.freeze(['orchidCulture', 'orchid']),
+    bg: 'seed3', position: '50% 58%', panel: 'orchidCulture',
+    reason: '不再把低清竖构图的春剑铺满舞台；相册里完整展示成都兰展照片，地点标签仍在资料卡。' }),
+  L05: Object.freeze({ from: Object.freeze(['orchid']), base: Object.freeze(['orchid']),
+    bg: 'seed2', position: '50% 55%', panel: 'orchidPlant',
+    reason: '讨论栽培与生长环境时留在扎根处，把528×960的整株春剑放在小卡内按比例显示。' })
+});
+
+/**
+ * @param {object} n 已解析剧情变体的当前节点（不改写它）
+ * @param {string} baseBg presentationFor 原本要使用的照片 id
+ * @returns {{bg:string, fit:string, position:string, treatment:string, panel:object|null, reason:string}}
+ * treatment 为 natural 或 soft；soft 建议只加约 2px 轻虚化与轻降饱和。
+ * panel 是建议数据：有 specimen 时应优先保留原来的花形导览。
+ */
+function polishedPhoto(n, baseBg) {
+  const node = n || {};
+  const original = typeof node.bg === 'string' ? node.bg : baseBg;
+  const incoming = typeof baseBg === 'string' && baseBg ? baseBg : original;
+  const proposed = PHOTO_POLISH_SCENES[node.id];
+  const useProposal = !!(proposed && proposed.from.includes(original) && proposed.base.includes(incoming));
+  const bg = useProposal ? proposed.bg : incoming;
+  const profile = PHOTO_POLISH_PROFILES[bg] || {
+    fit: 'cover', position: '50% 45%', treatment: 'natural',
+    reason: '沿用剧本明确选定的真实横向照片，不覆盖分支变体的地点或事件。'
+  };
+  const suggestedPanel = useProposal && proposed.panel ? PHOTO_POLISH_PANELS[proposed.panel] : null;
+  const panel = suggestedPanel ? { ...suggestedPanel, parts: [] } : null;
+  return {
+    bg,
+    fit: profile.fit,
+    position: useProposal && proposed.position ? proposed.position : profile.position,
+    treatment: profile.treatment,
+    panel,
+    reason: useProposal ? proposed.reason : profile.reason
+  };
+}
+</script><script>/* 真花辨认与可选旁注。沿用已确认的原Q版图。引导线坐标对应未裁切照片。 */
+const SPECIMENS={
+ azalea:{photo:'azalea',ratio:577/433,title:'把映山红看清',parts:[
+  {label:'五裂花冠',tag:[96,75],via:[86,75],point:[69,51],text:'照片正面可见花口五裂。花冠基部合生，向下连成宽漏斗；这张正面图不适合单独用来判断全部基部结构。'},
+  {label:'上部斑点',tag:[96,17],via:[86,17],point:[74,35],text:'上部裂片常有深色斑点。颜色之外，斑点、花形和枝叶也是辨认线索。'},
+  {label:'细长花蕊',tag:[4,19],via:[42,19],point:[66,46],text:'典型雄蕊十枚，另有一枚花柱。照片中会有遮挡，不能只按可见的数量计数。'}]},
+ orchid:{photo:'orchid3',ratio:1,title:'把春剑看清',zoom:true,parts:[
+  {label:'三枚萼片',tag:[7,18],via:[32,18],point:[55,22],samples:[[55,22],[30,66],[76,68]],text:'标记1是上方萼片，2和3是左右侧方萼片。它们组成外轮三枚萼片，内轮还有普通花瓣与唇瓣。'},
+  {label:'两枚花瓣',tag:[94,36],via:[68,36],point:[48,40],samples:[[48,40],[61,40]],text:'标记1和2是花心左右两枚普通花瓣，位置靠近花心，与外轮三枚萼片分开观察。'},
+  {label:'一枚唇瓣',tag:[7,75],via:[30,75],point:[55,51],text:'内轮另一枚花瓣特化成唇瓣，这张照片上带有红色纹斑。结构合起来是“3＋2＋1”。'}]}
+};
+const PHOTO_PANELS={orchidCulture:{photo:'orchidCulture',ratio:1702/1276,title:'春剑“玉海棠”，与介绍它的人',caption:'摄于成都杜甫草堂兰展；报道指出“玉海棠”来自巴中。人物为傅华龙，照片不是巴中本地兰展实拍。',parts:[]}};
+Object.assign(PHOTO_PANELS,PHOTO_POLISH_PANELS);
+let specimenNode='',specimenPart=-1,currentPanelSpec=null;
+function acknowledgeTipGuide(){db.meta.tipHintSeen=true;$('tip-guide').hidden=true;persist();}
+function setSceneCredit(p){
+ let text=p.title+' · '+p.credit;
+ const active=typeof run!=='undefined'&&run&&run.phase!=='end'&&!$('game').hidden;
+ if(active&&currentPanelSpec&&$('specimen')&&!$('specimen').hidden){const sp=photo(currentPanelSpec.photo);text+=' ｜ '+(currentPanelSpec.parts?.length?'花形特写':'资料照片')+'：'+sp.credit;}
+ $('photo-note').textContent=text;
+}
+function renderExtras(n,pending=false,panel=null){
+ const show=run.phase!=='end',selected=SPECIMENS[n.specimen]||panel||PHOTO_PANELS[n.photoPanel],spec=show&&!pending&&selected,tip=show&&(n.id!=='C02'||run.phase!=='intro'||run.index>0||pending)&&n.tips;
+ currentPanelSpec=spec||null;
+ $('specimen').hidden=!spec;$('tip-trigger').hidden=!tip;
+ $('tip-guide').hidden=!(tip&&n.id==='C02'&&run.phase==='intro'&&!pending&&!db.meta.tipHintSeen);
+ $('tip-guide-dismiss').onclick=acknowledgeTipGuide;
+ if(spec){
+  const panelKey=n.id+':'+(n.variantKey||'base')+':'+spec.photo;
+  if(specimenNode!==panelKey){specimenNode=panelKey;specimenPart=-1;}
+  const parts=spec.parts||[];
+  $('specimen-title').textContent=spec.title;
+  $('specimen').querySelector('small').textContent=parts.length?'点击引导线旁的标签，认识真实花朵':'与故事对应的真实摄影';
+  $('specimen-canvas').classList.toggle('orchid-closeup',!!spec.zoom);
+  $('specimen-canvas').style.setProperty('--ratio',spec.ratio);
+  $('specimen-photo').src=ASSETS[spec.photo];$('specimen-photo').alt=photo(spec.photo).title;
+  $('specimen-leads').innerHTML=parts.map((p,i)=>`<g class="${i===specimenPart?'selected':''}"><polyline points="${p.tag} ${p.via} ${p.point}"/>${i===specimenPart&&p.samples?p.samples.map(([x,y],j)=>`<g class="part-marker"><circle cx="${x}" cy="${y}" r="2.1"/><text x="${x}" y="${y}">${j+1}</text></g>`).join(''):`<circle cx="${p.point[0]}" cy="${p.point[1]}" r=".9"/>`}</g>`).join('');
+  $('specimen-parts').innerHTML=parts.map((p,i)=>`<button data-part="${i}" aria-pressed="${i===specimenPart}" style="left:${p.tag[0]}%;top:${p.tag[1]}%;--side:${p.tag[0]>50?'-100%':'0%'}">${esc(p.label)}</button><button data-part="${i}" class="part-hotspot" aria-label="查看${esc(p.label)}" style="left:${p.point[0]}%;top:${p.point[1]}%"></button>`).join('');
+  $('specimen-detail').textContent=spec.caption||(specimenPart<0?'点一个部位标签，查看对应的形态说明。':parts[specimenPart].text);
+  $('specimen-parts').querySelectorAll('button').forEach(b=>b.onclick=()=>{const activePart=b.dataset.part,isHotspot=b.classList.contains('part-hotspot');specimenPart=+activePart;renderExtras(n,false,panel);$('specimen-parts').querySelector(`button${isHotspot?'.part-hotspot':':not(.part-hotspot)'}[data-part="${activePart}"]`)?.focus({preventScroll:true});});
+  $('specimen-zoom').onclick=()=>{openModal('gallery');zoomPhoto(spec.photo);};
+ }
+ if(tip){
+  $('tip-q').src=ASSETS[tip.who+'Q'];$('tip-q').alt=(tip.who==='ying'?'映红':'兰序')+'的Q版形象';
+  $('tip-label').textContent=tip.title;$('tip-trigger').dataset.who=tip.who;
+  $('tip-trigger').onclick=()=>{acknowledgeTipGuide();openModal('tip',n);};
+ }
+ setSceneCredit(photo(activeBg));
+}
+function tipBody(n){
+ const t=n.tips,who=t.who==='ying'?'映红':'兰序';
+ return `<div class="tip-reading"><img src="${ASSETS[t.who+'Q']}" alt="${who}Q版"><div><div class="tip-byline">${who}的小贴士</div><h3>${esc(t.title)}</h3><p>${esc(t.text)}</p><button class="plain-button" id="tip-more">继续看相关资料 ↗</button>${t.sourceUrl?`<p class="note"><a href="${esc(t.sourceUrl)}" target="_blank" rel="noopener noreferrer">这则资料的原文出处 ↗</a></p>`:''}</div></div>`;
+}
+</script><script>'use strict';
+const $=id=>document.getElementById(id), esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const icon=(type)=>`<svg class="flower" aria-hidden="true"><use href="#icon-${type==='ying'?'azalea':'orchid'}"/></svg>`;
+const KEY='huakai-bazhong-v1';let storageOK=true, saved=null;
+try{saved=JSON.parse(localStorage.getItem(KEY)||'null');}catch(e){storageOK=false;}
+const freshMeta=()=>({seen:[],ends:[],bestD:false,bestL:false,tipHintSeen:false});
+let db={version:1,meta:freshMeta(),autosave:null,slots:[null,null,null],settings:{size:18,speed:27,theme:'scene',motion:true}};
+function validRun(r){return r&&r.version===1&&STORY[r.id]&&['intro','post','end'].includes(r.phase)&&Number.isInteger(r.index)&&r.index>=0&&r.index<100&&Number.isFinite(r.D)&&Number.isFinite(r.L)&&r.D>=0&&r.L>=0&&typeof r.flags==='object'&&r.flags!==null&&Array.isArray(r.history)&&r.history.length<=1500&&r.history.every(x=>typeof x.who==='string'&&typeof x.text==='string'&&x.text.length<3000)&&Array.isArray(r.picks)&&r.picks.length<=30&&r.picks.every(x=>STORY[x.id]&&Number.isInteger(x.choice)&&x.choice>=0&&x.choice<3)&&Array.isArray(r.post)&&r.post.every(x=>typeof x.who==='string'&&typeof x.text==='string'&&x.text.length<3000)&&['','D','L','H'].includes(r.route)&&(!r.end||ENDINGS[r.end]);}
+function sanitizeDB(x){if(!x||x.version!==1)return null;const m=x.meta||{};return {version:1,meta:{seen:Array.isArray(m.seen)?m.seen.filter(x=>typeof x==='string'&&x.length<100).slice(0,5000):[],ends:Array.isArray(m.ends)?m.ends.filter(x=>ENDINGS[x]):[],bestD:m.bestD===true,bestL:m.bestL===true,tipHintSeen:m.tipHintSeen===true},autosave:validRun(x.autosave)?x.autosave:null,slots:[0,1,2].map(i=>validRun(x.slots?.[i])?x.slots[i]:null),settings:{size:Math.min(24,Math.max(15,Number(x.settings?.size)||18)),speed:Math.min(65,Math.max(0,Number(x.settings?.speed)||0)),theme:['scene','warm','cool','dark'].includes(x.settings?.theme)?x.settings.theme:'scene',motion:x.settings?.motion!==false}};}
+db=sanitizeDB(saved)||db;let run=null,typing=null,autoTimer=null,autoMode=false,skipMode=false,lastFocus=null,currentLine=null,shownBefore=false,currentKey='',activeBg='mountain',toastTimer=null,activeFrame={fit:'cover',position:'50% 50%',treatment:'natural'};
+function clone(x){return JSON.parse(JSON.stringify(x));}
+function persist(){try{localStorage.setItem(KEY,JSON.stringify(db));}catch(e){storageOK=false;}}
+function checkpoint(){if(run){run.savedAt=new Date().toISOString();db.autosave=clone(run);}persist();}
+function toast(s){$('toast').textContent=s;$('toast').hidden=false;clearTimeout(toastTimer);toastTimer=setTimeout(()=>$('toast').hidden=true,3200);}
+function stopTimers(){clearInterval(typing);typing=null;clearTimeout(autoTimer);}
+function photo(id){return PHOTOS.find(x=>x.id===id)||PHOTOS[0];}
+function setBg(id,frame){if(frame)activeFrame={fit:frame.fit||'cover',position:frame.position||'50% 50%',treatment:frame.treatment||'natural'};else if(id!==activeBg)activeFrame={fit:'cover',position:'50% 50%',treatment:'natural'};activeBg=id;const p=photo(id),back=$('backdrop');if(back.dataset.key!==id){back.src=ASSETS[id];back.dataset.key=id;}back.alt=p.title;back.style.objectFit=activeFrame.fit;back.style.objectPosition=activeFrame.position;back.dataset.treatment=activeFrame.treatment;const t=db.settings.theme==='scene'?({seed:'cool',azalea:'warm',orchid:'warm',orchid2:'cool',hospital:'cool',memorial:'cool',mountain:'cool',ridge:'dark'}[id]||'cool'):db.settings.theme;$('game').dataset.theme=t;setSceneCredit(p);}
+function setActors(mode,who,mood=0,acting=null){const duo=mode==='both'||(run?.id==='C02'&&mode==='ying');$('game').dataset.cast=duo?'both':mode;const a=$('actor1'),b=$('actor2');a.hidden=mode==='none';b.hidden=mode!=='both';a.className='actor';b.className='actor';if(mode==='none')return;const poses=acting||{ying:'intro',lan:'intro'};if(mode==='both'){paintActorPose(a,'ying',poses.ying);paintActorPose(b,'lan',poses.lan);a.classList.add('left');b.classList.add('right');if(who==='映红')b.classList.add('dim');if(who==='兰序')a.classList.add('dim');}else{paintActorPose(a,mode,poses[mode]);if(duo&&mode==='ying')a.classList.add('left');}}
+
+function homeState(){const m=db.meta;$('continue').disabled=!db.autosave;$('hidden-start').hidden=!(m.bestD&&m.bestL);$('meta-note').textContent=(m.bestD?'已收录《向山而开》':'尚未收录杜鹃最佳花信')+' · '+(m.bestL?'已收录《为你留香》':'尚未收录春剑最佳花信')+(m.bestD&&m.bestL?'。两段记忆已汇合，可以开启新的故事。':'。两个最佳花信汇合后，将出现新的故事。');}
+function goHome(){stopTimers();autoMode=false;skipMode=false;if(run)checkpoint();$('game').hidden=true;$('home').hidden=false;document.body.classList.remove('playing','hide-ui');$('ending').hidden=true;setBg('mountain');homeState();}
+function makeRun(hidden=false){return {version:1,storyRevision:STORY_REVISION,id:hidden?'H01':'C01',phase:'intro',index:0,D:0,L:0,last:'',route:hidden?'H':'',flags:{},picks:[],post:[],history:[],end:null,completed:false};}
+function start(hidden=false){if(hidden&&!(db.meta.bestD&&db.meta.bestL))return;stopTimers();run=makeRun(hidden);enterGame();checkpoint();}
+function enterGame(){if(run.storyRevision!==STORY_REVISION&&!run.completed){run=makeRun(run.route==='H'&&db.meta.bestD&&db.meta.bestL);toast('故事已更新，本周目从新开场重读；已收藏花信保留。');}run.storyRevision=STORY_REVISION;if(run.phase==='post'){const last=run.picks.at(-1);if(last&&last.id===run.id)run.post=choiceLines(resolveStoryNode(last.id,run),last.choice);}document.body.classList.add('playing');$('home').hidden=true;$('game').hidden=false;autoMode=false;skipMode=false;render();}
+function choiceLines(n,i){const lines=clone(n.choices[i].lines);if(n.id==='C06')lines.push(L('旁白',routeFor(run)==='D'?'回想一路的疑问，我总会看向那些鲜亮的花。映红翻到光雾山，兰序帮我留好了另一段故事。':'回想一路的疑问，我总会留意花怎样与人相伴。兰序翻开兰展那一页，映红帮我留好了另一段故事。'));return lines;}
+function linesFor(){if(run.phase==='post')return run.post;const n=resolveStoryNode(run.id,run),lines=n.lines.slice();const recall=n.recalls?.find(x=>run.flags[x.if]);if(recall)lines.splice(1,0,recall.line);if(run.id==='C01'&&db.meta.ends.length)lines.splice(1,0,L('我','这一次，我想再认真看看另一种花，也听完还没听过的故事。'));return lines;}
+function controls(){ $('auto').textContent=autoMode?'停止自动':'自动';$('skip').textContent=skipMode?'停止快进':'已读快进';}
+function render(){stopTimers();$('auto').disabled=false;$('skip').disabled=false;controls();$('ending').hidden=true;$('choices').hidden=true;$('dialogue').hidden=false;const n=resolveStoryNode(run.id,run);$('chapter').textContent=({'C':'共通篇','D':'映红篇','L':'兰序篇','H':'新的花信'}[run.id[0]])+' · '+n.title;$('context-lore').hidden=!n.lore||!!n.tips;$('context-lore').onclick=()=>openModal('archive',n.lore);
+if(run.phase==='end'){renderEnding();return;}
+const lines=linesFor();if(run.index>=lines.length){if(run.phase==='intro'){showChoices(n);return;}const next=nextId(run,run.id);if(next){run.id=next;run.phase='intro';run.index=0;run.post=[];checkpoint();render();}else{finishRun();}return;}
+currentLine=lines[run.index];currentKey='v4acting1:'+run.id+':'+n.variantKey+':'+run.phase+':'+(run.phase==='post'?run.picks.at(-1).choice+':':'')+run.index;shownBefore=db.meta.seen.includes(currentKey);const view=presentationFor(n,currentLine);setBg(view.bg,view);setActors(view.actor,currentLine.who,view.mood,view.acting);renderExtras(n,false,view.panel);const who=currentLine.who;$('speaker').dataset.who=who;$('speaker').innerHTML=(who==='映红'?icon('ying'):who==='兰序'?icon('lan'):'')+esc(who);$('line').textContent='';$('advance').disabled=false;$('line').scrollTop=0;let letters=Array.from(currentLine.text),i=0;
+function done(){clearInterval(typing);typing=null;$('line').textContent=currentLine.text;queueAuto();}
+if(!db.settings.motion||db.settings.speed===0||skipMode){done();}else{typing=setInterval(()=>{i++;$('line').textContent=letters.slice(0,i).join('');if(i>=letters.length)done();},db.settings.speed);}
+}
+function queueAuto(){clearTimeout(autoTimer);if(!$('overlay').hidden)return;if(skipMode){if(shownBefore)autoTimer=setTimeout(advance,110);else{skipMode=false;controls();}}else if(autoMode){autoTimer=setTimeout(advance,Math.max(1900,Array.from(currentLine?.text||'').length*85));}}
+function advance(){if(!run||!$('overlay').hidden||!$('ending').hidden||!$('choices').hidden)return;if(typing){clearInterval(typing);typing=null;$('line').textContent=currentLine.text;queueAuto();return;}if(currentLine){run.history.push({who:currentLine.who,text:currentLine.text});if(!db.meta.seen.includes(currentKey))db.meta.seen.push(currentKey);}run.index++;checkpoint();render();}
+function showChoices(n){autoMode=false;skipMode=false;currentLine=null;$('auto').disabled=true;$('skip').disabled=true;controls();const view=presentationFor(n,null,true);setBg(view.bg,view);setActors(view.actor,'',view.mood,view.acting);renderExtras(n,true,view.panel);$('speaker').dataset.who='我';$('speaker').textContent='我';$('line').textContent=n.question;$('advance').disabled=true;const offset=(Number(n.id.slice(1))-1)%3,order=[0,1,2].map(i=>(i+offset)%3);$('choices').innerHTML=order.map(i=>`<button data-choice="${i}">${esc(n.choices[i].text)}</button>`).join('');$('choices').hidden=false;Array.from($('choices').querySelectorAll('button')).forEach(b=>b.onclick=()=>choose(Number(b.dataset.choice)));}
+function choose(i){const n=resolveStoryNode(run.id,run);if(run.phase!=='intro'||run.index<linesFor().length||!n.choices[i])return;const choice=n.choices[i];applyEffects(run,choice.effects);run.picks.push({id:n.id,choice:i,variant:n.variantKey});run.history.push({who:'选择',text:choice.text});run.post=choiceLines(n,i);run.phase='post';run.index=0;checkpoint();render();}
+function finishRun(){run.end=endingFor(run);run.phase='end';run.index=0;if(!run.completed){run.completed=true;if(!db.meta.ends.includes(run.end))db.meta.ends.push(run.end);if(run.end==='Dgood')db.meta.bestD=true;if(run.end==='Lgood')db.meta.bestL=true;}checkpoint();renderEnding();}
+function renderEnding(){stopTimers();autoMode=false;skipMode=false;const e=ENDINGS[run.end];if(!e){goHome();return;}setBg(e.bg,polishedPhoto({id:run.end,bg:e.bg},e.bg));setActors(e.actor,'',0,{ying:run.end==='Dgood'?'greet':'intro',lan:run.end==='Lgood'?'warm':'intro'});$('dialogue').hidden=true;$('choices').hidden=true;$('context-lore').hidden=true;$('specimen').hidden=true;$('tip-trigger').hidden=true;$('tip-guide').hidden=true;$('chapter').textContent='花信终章';$('ending').hidden=false;let unlock=db.meta.bestD&&db.meta.bestL;let hint=run.end==='Dgrow'?'回看提示：认真认识地方山花与红色记忆，讲清故事，也给自己的花期留一点时间。':run.end==='Lgrow'?'回看提示：倾听实际需要，保护自己的边界，并允许自己也有感受。':run.end==='Hgrow'?'回看提示：让行动与倾听一起发生，给自己的模样留出位置。':unlock?'两段最佳记忆已汇合。返回首页，可循着它们开启新的花信。':'这段记忆已经留下。另一种花，还在等待与你相遇。';$('ending').innerHTML=`<div class="kicker">${e.best?'完整花信':'生长中的花信'} · ${esc(e.flower)}</div><h2 class="serif">${esc(e.name)}</h2><p>${esc(e.text)}</p><p class="small">${esc(hint)}</p><button id="end-home">收起花信</button><button id="end-review">回看旅程</button>`;$('end-home').onclick=goHome;$('end-review').onclick=()=>openModal('history');}
+
+const SOURCES={city:['四川在线：巴中城市形象标识和市树、市花正式公布（2021-09-23）','https://sichuan.scol.com.cn/ggxw/202109/58289802.html'],mountain:['四川在线：光雾山高山杜鹃与当季赏花景观（2024-04-22）','https://bazhong.scol.com.cn/jtlvx/202404/82513032.html'],climate:['中国天气网：巴中气候背景','https://www.weather.com.cn/cityintro/101270901.shtml'],azalea:['植物智：杜鹃花 Rhododendron simsii','https://www.iplant.cn/fsz/info/Rhododendron%20simsii'],orchid:['Kew POWO：Cymbidium tortisepalum var. longibracteatum','https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A20012164-1'],flora:['《中国植物志》18卷224页：春剑','https://www.iplant.cn/frps/pdf/18/224.pdf'],hospital:['通江县政府：川陕革命根据地红军烈士陵园与医院旧址群','https://tjxzf.gov.cn/zjtj/tjtz/7744011.html'],care:['人民网：红军老医院，有了新村医（2026-09-06）','https://sc.people.com.cn/n2/2026/0906/c345510-41688185.html']};
+Object.assign(SOURCES,{flowerLife:['四川在线：光雾山游客与杜鹃同框（2025-05-19）','https://sichuan.scol.com.cn/ggxw/202505/82968720.html'],orchidCulture:['红星新闻：杜甫草堂兰展与来自巴中的春剑玉海棠（2024-02-23）','https://static.cdsb.com/micropub/Articles/202402/07f9bc25a8091db9f127f5b59b219408.html']});
+const cite=(...ids)=>ids.map(k=>`<a href="${SOURCES[k][1]}" target="_blank" rel="noopener noreferrer">${esc(SOURCES[k][0])}</a>`).join('；');
+let archiveTab='city';
+function archiveBody(tab){archiveTab=tab;let h=`<div class="tabs">${[['city','一城双花'],['botany','把花看清'],['hospital','战地兰香'],['memory','花与城市'],['sources','资料出处']].map(([id,t])=>`<button data-tab="${id}" class="${tab===id?'active':''}">${t}</button>`).join('')}</div>`;
+if(tab==='city')h+=`<h3>同一天，被一座城记住</h3><div class="timeline"><p><strong>2021年5月28日 · 启动征集</strong>巴中市精神文明建设办公室发布城市精神表述语、城市形象及旅游宣传语和市树市花名称征集公告。</p><p><strong>公众参与与专家讨论</strong>线上线下公众参与，专家组开展10余次讨论。报道所称“逾90万票”属于整项征集活动，不能写成市花单项票数。</p><p><strong>2021年9月23日 · 正式发布</strong>杜鹃（映山红）、兰花（巴山春剑）同时被公布为巴中双市花。没有将其中一种写成后来增补的依据。</p></div><p class="note">出处：${cite('city')}</p><h3>为什么选择这两种花？</h3><p>发布报道从地方植物资源与文化记忆作解释：杜鹃在巴中分布广，与革命老区的红色记忆呼应；巴中盛产兰花，巴山春剑有地方代表性，王坪医院种兰的故事又让兰花连到坚贞与照护的记忆。</p><p>本作品的分析是：双市花让不同植物形态与城市经验并置，形成互补表达。这是基于资料的设计解读，并非已查到的“必须设双花”的独立官方决议理由；两种花也不应被硬分成只有一方才有的品格。</p><h3>山水，为花留下生长的位置</h3><p>巴中位于四川盆地东北部、米仓山南麓，地形复杂，气候湿润、降水较丰沛。多样的海拔与环境，为理解当地植物资源提供背景；不能仅凭气候相近，就断言某株照片中的花原生于巴中。</p><p class="note">环境来源：${cite('climate','mountain')}</p>`;
+if(tab==='botany')h+=`<div class="fact-grid"><section><img class="fact-photo" data-photo="azalea" src="${ASSETS.azalea}" alt="映山红实物照片"><h3>${icon('ying')} 杜鹃 · 映山红</h3><p><i>Rhododendron simsii</i>。典型花冠为阔漏斗形，五个裂片基部合生，上部常见深色斑点，典型雄蕊10枚。并不是五片彼此独立的花瓣拼在一起。</p><p>光雾山的杜鹃景观包含多种杜鹃；花海照片可说明景观，不能将整片花海直接鉴定为映山红。</p><p class="note">${cite('azalea','mountain')}</p></section><section><img class="fact-photo" data-photo="orchid2" src="${ASSETS.orchid2}" alt="春剑栽培实物照片"><h3>${icon('lan')} 兰花 · 巴山春剑</h3><p>春剑可见现用组合 <i>Cymbidium tortisepalum var. longibracteatum</i>，旧资料也使用不同学名组合。典型花被外轮为3枚萼片；内轮为两枚普通花瓣，以及一枚特化的唇瓣，不能说只有三片花被。</p><p>外萼片较醒目，内花瓣靠近花心，唇瓣常有纹斑；花色与瓣型有品种差异。“巴山春剑”不能被理解为某一张商品照片中的唯一品种。</p><p class="note">${cite('orchid','flora')}</p></section></div><p class="note">两张照片为异地栽培/植物观察材料，不标为巴中野外实拍。姓名旁小花为简化身份图标，不能代替植物结构图。</p>`;
+if(tab==='hospital')h+=`<img class="fact-photo" data-photo="hospital" src="${ASSETS.hospital}" alt="当代王坪红军医院旧址群"><h3>清馨，是艰难生活里的一点照护</h3><p>市花发布报道转述：张琴秋和女战士将兰花带到伤病员身边，并在医院周围栽种，以改善休养氛围。这里的意义是照护与精神慰藉，不能把花香写成治伤的药物。</p><p>现有资料不能确定故事中每株兰花的物种或栽培品种，也没有提供当年种兰的现场照片。本页采用当代旧址照；小说中的对白、幼芽与花的化身均为创作。</p><p class="note">${cite('city','hospital')}</p><h3>记忆也在今天继续</h3><p>2026年人民网走访王坪，把老医院的革命医疗记忆与今天的村医联系起来。作品据此思考：关怀不仅留在往事里，也在今天具体的生活中延续。</p><p class="note">${cite('care')}</p>`;
+if(tab==='memory')h+=`<h3>热烈与清芬，都是城市记忆的入口</h3><p>市花发布报道将杜鹃与红色文化、耕耘和奉献相联系，也赋予兰花坚贞、刚毅的品格。映红从鲜亮的山花引出地方与红色记忆；兰序从春剑形态讲到战地照护。角色对白是创作，文化解释有来源，两者各自标明。</p><p class="note">${cite('city')}</p><div class="fact-grid"><section><img class="fact-photo" data-photo="flowerCamera" src="${ASSETS.flowerCamera}" alt="游客在光雾山拍摄杜鹃"><h3>山花，进入今天的生活</h3><p>光雾山游客与杜鹃同框的照片，把花和赏花、摄影、登山联系起来。花不只是被裁下的一块颜色，也在具体的地方景观与生活中被认识。</p><p>不同海拔和杜鹃种类的花期有差异，实际赏花时间也受天气影响。</p><p class="note">${cite('flowerLife','mountain')}</p></section><section><img class="fact-photo" data-photo="orchidCulture" src="${ASSETS.orchidCulture}" alt="成都兰展上的傅华龙与来自巴中的春剑玉海棠"><h3>来自巴中的春剑，走进兰展</h3><p>2024年红星新闻介绍成都杜甫草堂兰展时，记述傅华龙与春剑“玉海棠”，并指出该品种来自巴中。这是地方兰花资源进入当代兰文化交流的一个例子。</p><p>照片拍摄于成都兰展，不能写作巴中当地展览，也不能把这一品种当成所有巴山春剑的唯一花形。</p><p class="note">${cite('orchidCulture')}</p></section></div><h3>我为什么开花？</h3><p>市花的代表性不是给所有花排名。故事让小芽从认清花形、追问市花设立，到走近两段城市记忆，再理解自己的生长：可以期待被看见，也能与人相遇，不必先获得称号才有价值。草籽开成不同花形是童话设定。</p>`;
+if(tab==='sources')h+=`<div class="sourcelist"><h3>资料来源</h3>${Object.keys(SOURCES).map(k=>`<p>${cite(k)}</p>`).join('')}<h3>事实与创作的边界</h3><p>调研整理截至2026年10月18日。来源链接需要联网打开；正文和全部采用图片已嵌入本文件。历史人物没有被安排说虚构引语；无法证实的具体日期、当年兰花品种等不作断言。</p><p>为什么采用双花的互补分析、角色品格、对话及情节是作者的设计解释。AI辅助插画与真实摄影分别标注，不能混为实景材料。</p><button class="plain-button" data-action="gallery">查看逐张照片出处</button></div>`;return h;}
+function openModal(kind,arg){lastFocus=document.activeElement;if(typing&&currentLine)$('line').textContent=currentLine.text;stopTimers();$('overlay').hidden=false;let title='',body='';
+if(kind==='archive'){title='走近巴中双市花';body=archiveBody(arg||'city');}
+if(kind==='tip'){title='花旁小注';body=tipBody(arg);}
+if(kind==='gallery'){title='实景照片册';body=`<p class="note">摄影保留原作者版权与署名；本作品用于课程学习展示，未取得开放许可的照片不代表可自由商用或公开再分发。点击照片查看大图与来源。植物特写不限巴中，旧址照片均为当代摄影。</p><div class="gallery">${PHOTOS.map(p=>`<figure><img data-photo="${p.id}" src="${ASSETS[p.id]}" alt="${esc(p.title)}" loading="lazy"><figcaption>${esc(p.title)}<small>${esc(p.credit)}</small><a href="${esc(p.source)}" target="_blank" rel="noopener noreferrer">摄影来源 ↗</a></figcaption></figure>`).join('')}</div>`;}
+if(kind==='history'){title='对话记录';body=run?.history.length?run.history.map(x=>`<div class="history-line"><b>${esc(x.who)}</b><span>${esc(x.text)}</span></div>`).join(''):'<p>启程后，读过的对白会留在这里。</p>';}
+if(kind==='endings'){title='花信收藏';body=`<p class="note">最佳花信来自一路的选择。完成杜鹃与春剑两个最佳结局后，首页会出现新的故事入口。</p><div class="ending-grid">${Object.entries(ENDINGS).map(([k,e])=>{const seen=db.meta.ends.includes(k);return `<div class="ending-card ${seen?'':'locked'}"><span class="status">${seen?'已收录':'尚未收录'}</span><h3 class="serif">${seen?esc(e.name):k[0]==='H'?'未寄出的花信':e.flower+' · '+(e.best?'完整花信':'生长花信')}</h3><p>${seen?esc(e.text):k[0]==='D'?'认识地方山花与红色记忆，让花成为了解城市的入口。':k[0]==='L'?'听见实际需要，也给自己留下生长的空间。':'让两段最佳记忆相遇，再看自己的花。'}</p></div>`;}).join('')}</div>`;}
+if(kind==='saves'){title='收藏这一刻';body=`<p class="note">自动保存与三个手动位置分开存放。开始新周目保留已收录结局和已读记录。${storageOK?'浏览器本地保存可用。':'浏览器本地保存不可用，请导出花信以保留进度。'}</p><div class="slots">${db.slots.map((r,i)=>`<section class="slot"><b>花信 ${i+1}</b><p>${r?esc(resolveStoryNode(r.id,r).title)+'<br><small>'+esc(new Date(r.savedAt).toLocaleString())+'</small>':'尚未写入'}</p><button data-save="${i}" ${run?'':'disabled'}>写入</button><button data-load="${i}" ${r?'':'disabled'}>读取</button></section>`).join('')}</div><p><button class="plain-button" data-action="export">导出全部花信</button><button class="plain-button" data-action="import">导入花信文件</button></p>`;}
+if(kind==='settings'){title='阅读设置';body=`<div class="settings-row"><label for="size-input">文字大小</label><input id="size-input" type="range" min="15" max="24" value="${db.settings.size}"><span id="size-value">${db.settings.size}px</span></div><div class="settings-row"><label for="speed-input">逐字间隔</label><input id="speed-input" type="range" min="0" max="65" value="${db.settings.speed}"><span id="speed-value">${db.settings.speed===0?'即时':db.settings.speed+'ms'}</span></div><div class="settings-row"><label for="theme-input">框体色调</label><select id="theme-input"><option value="scene">随场景调整</option><option value="cool">浅冷灰</option><option value="warm">浅暖灰</option><option value="dark">深灰</option></select></div><div class="settings-row"><label for="motion-input">逐字与过渡</label><input id="motion-input" type="checkbox" ${db.settings.motion?'checked':''}></div><p class="note">文字本身保持实色，半透明底色衬托照片。尊重系统减少动态效果偏好。没有音频，不会自动播放声音。</p><button class="plain-button" data-action="export">导出花信</button>`;}
+if(kind==='about'){title='一粒草籽的花信';body=`<p class="intro-notice">这是关于巴中双市花的原创互动童话。背景使用真实摄影；映红与兰序为AI辅助设计的拟人插画。草籽能够开成不同花形，是故事规则。</p><h3>怎样阅读</h3><p>点击对话或按空格、右方向键继续。逐字显示时，第一次点击显示整句，第二次继续。每个普通周目有15次三选一，共通篇根据一路的选择带你走近相应市花。前面的经历也会改变后续事件与结局。</p><p>先在两条路线分别读到最佳结局《向山而开》《为你留香》，首页才会出现“循着两段记忆”。隐藏故事有6次专属选择。若想重读另一条市花线，仍可使用“开始故事”。</p><p>“已读快进”只越过此前读过的对白，遇到新内容和选项会停止。随时打开市花档案，不必通关才能查阅调研内容。</p><h3>关于记录</h3><p>进度保存在当前浏览器。换浏览器、清理浏览数据或移动文件后，本地存储可能不同；可以用存读档中的导出、导入保留花信。开始新周目不清除已收录结局。</p><h3>制作说明</h3><p>AI辅助完成角色试稿、透明立绘、程序与文字整理；资料经来源核对，人物对白为原创。姓名旁映山红与春剑图标使用简约矢量线形。作品不将传说、现代照片或虚构对白当成历史现场证据。</p><p class="note">本页为在线分享版，首次打开需联网加载图片。进度保存在当前设备的浏览器；更换设备可在“存读档”中导出、导入花信。另有内嵌全部素材的单文件HTML用于课程提交。摄影素材复用条件见照片册。</p><button class="plain-button" data-action="sources">查看研究出处</button>`;}
+$('modal-title').textContent=title;$('modal-body').innerHTML=body;bindModal();$('close').focus();if(kind==='tip')$('tip-more').onclick=()=>openModal('archive',arg.tips.source||'city');if(kind==='settings'){$('theme-input').value=db.settings.theme;for(const [id,key]of [['size-input','size'],['speed-input','speed']])$(id).oninput=()=>{db.settings[key]=Number($(id).value);$(key+'-value').textContent=key==='size'?db.settings.size+'px':db.settings.speed===0?'即时':db.settings.speed+'ms';applySettings();persist();};$('theme-input').onchange=()=>{db.settings.theme=$('theme-input').value;applySettings();persist();};$('motion-input').onchange=()=>{db.settings.motion=$('motion-input').checked;applySettings();persist();};}}
+function bindModal(){document.querySelectorAll('[data-tab]').forEach(b=>b.onclick=()=>{ $('modal-body').innerHTML=archiveBody(b.dataset.tab);bindModal();});document.querySelectorAll('[data-photo]').forEach(b=>b.onclick=()=>zoomPhoto(b.dataset.photo));document.querySelectorAll('[data-save]').forEach(b=>b.onclick=()=>{if(!run)return;const i=+b.dataset.save;if(db.slots[i]&&!confirm('覆盖这封手动花信？'))return;run.savedAt=new Date().toISOString();db.slots[i]=clone(run);persist();openModal('saves');toast('已写入花信 '+(i+1));});document.querySelectorAll('[data-load]').forEach(b=>b.onclick=()=>{run=clone(db.slots[+b.dataset.load]);closeModal();enterGame();checkpoint();});document.querySelectorAll('[data-action]').forEach(b=>b.onclick=()=>{const a=b.dataset.action;if(a==='export')exportData();if(a==='import')importData();if(a==='gallery')openModal('gallery');if(a==='sources')openModal('archive','sources');});}
+function zoomPhoto(id){const p=photo(id);$('modal-title').textContent=p.title;$('modal-body').innerHTML=`<img class="zoom" src="${ASSETS[id]}" alt="${esc(p.title)}"><p class="note">${esc(p.credit)} · <a href="${esc(p.source)}" target="_blank" rel="noopener noreferrer">查看原始出处 ↗</a></p><button id="back-gallery" class="plain-button">返回照片册</button>`;$('back-gallery').onclick=()=>openModal('gallery');}
+function closeModal(){$('overlay').hidden=true;if(run&&$('game').hidden===false&&run.phase!=='end'){if(currentLine)$('line').textContent=currentLine.text;queueAuto();}lastFocus?.focus?.();}
+function exportData(){checkpoint();const blob=new Blob([JSON.stringify(db,null,2)],{type:'application/json'}),a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='花开有时_花信备份.json';a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000);toast('花信备份已导出');}
+function importData(){const input=document.createElement('input');input.type='file';input.accept='.json,application/json';input.onchange=async()=>{const file=input.files[0];if(!file)return;if(file.size>3000000){toast('文件过大，请选择花信备份文件');return;}try{const next=sanitizeDB(JSON.parse(await file.text()));if(!next)throw Error();if(!confirm('用备份中的进度替换当前记录？建议先导出当前花信。'))return;db=next;run=null;persist();applySettings();closeModal();goHome();toast('已导入花信');}catch(e){toast('没有读到有效花信，当前进度未改变');}};input.click();}
+function applySettings(){document.documentElement.style.setProperty('--body-size',db.settings.size+'px');document.documentElement.style.setProperty('--text-scale',String(db.settings.size/18));document.body.classList.toggle('no-motion',!db.settings.motion||matchMedia('(prefers-reduced-motion: reduce)').matches);setBg(activeBg);}
+document.querySelectorAll('[data-open]').forEach(b=>b.onclick=()=>openModal(b.dataset.open));$('close').onclick=closeModal;$('overlay').onclick=e=>{if(e.target===$('overlay'))closeModal();};$('start').onclick=()=>{if(db.autosave&&!db.autosave.completed&&!confirm('开始新周目会替换自动记录，已收藏结局和手动花信会保留。继续吗？'))return;start();};$('hidden-start').onclick=()=>{if(db.autosave&&!db.autosave.completed&&!confirm('开启新的花信会替换自动记录，手动花信与收藏会保留。继续吗？'))return;start(true);};$('continue').onclick=()=>{if(db.autosave){run=clone(db.autosave);enterGame();}};$('home-button').onclick=goHome;$('advance').onclick=advance;$('line').onclick=advance;$('auto').onclick=()=>{autoMode=!autoMode;skipMode=false;controls();if(autoMode){if(typing){clearInterval(typing);typing=null;$('line').textContent=currentLine.text;}queueAuto();}else clearTimeout(autoTimer);};$('skip').onclick=()=>{skipMode=!skipMode;autoMode=false;controls();if(skipMode){if(!shownBefore){skipMode=false;controls();toast('已到达未读内容');return;}if(typing){clearInterval(typing);typing=null;$('line').textContent=currentLine.text;}queueAuto();}else clearTimeout(autoTimer);};$('hide-ui').onclick=()=>document.body.classList.add('hide-ui');$('unhide').onclick=()=>document.body.classList.remove('hide-ui');
+document.addEventListener('keydown',e=>{if(!$('overlay').hidden){if(e.key==='Escape'){closeModal();return;}if(e.key==='Tab'){const els=Array.from($('overlay').querySelectorAll('button,a,input,select')).filter(x=>!x.disabled&&!x.hidden);const first=els[0],last=els.at(-1);if(e.shiftKey&&document.activeElement===first){e.preventDefault();last?.focus();}else if(!e.shiftKey&&document.activeElement===last){e.preventDefault();first?.focus();}}return;}if(e.key==='Escape'){document.body.classList.remove('hide-ui');if(!$('game').hidden)openModal('settings');return;}if(!run||$('game').hidden)return;if((e.key===' '||e.key==='ArrowRight')&&!['BUTTON','INPUT','SELECT','A'].includes(document.activeElement.tagName)){e.preventDefault();advance();}});
+applySettings();goHome();
+
+$('fullscreen').onclick=async()=>{try{if(!document.fullscreenElement){await document.documentElement.requestFullscreen();try{await screen.orientation?.lock?.('landscape');}catch(e){}}else await document.exitFullscreen();}catch(e){toast('浏览器未启用全屏，可将设备横过来阅读');}};
+</script></body></html>
